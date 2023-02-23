@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-02-23T06:09:52.756Z</updated>
+  <updated>2023-02-23T13:37:54.039Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,14 +21,15 @@
     <link href="http://example.com/2023/02/23/first-blog/"/>
     <id>http://example.com/2023/02/23/first-blog/</id>
     <published>2023-02-23T03:36:09.000Z</published>
-    <updated>2023-02-23T06:09:52.756Z</updated>
+    <updated>2023-02-23T13:37:54.039Z</updated>
     
-    <content type="html"><![CDATA[<p>It’s my first Blog, so let’s start a whole new journey!<br>The Web of Science blog left me powerless to complain about it and learned about a whole new world after an evening of study. An autonomous blog that feels very good! </p>]]></content>
+    <content type="html"><![CDATA[<p>It’s my first Blog, so let’s start a whole new journey!科学网博客的注册实在让我无力吐槽，经过一晚上的学习，终于打开了一个全新的世界，github+Hexo自主搭建blog的感觉很nice. </p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;It’s my first Blog, so let’s start a whole new journey!&lt;br&gt;The Web of Science blog left me powerless to complain about it and learned abo</summary>
+    <summary type="html">&lt;p&gt;It’s my first Blog, so let’s start a whole new journey!科学网博客的注册实在让我无力吐槽，经过一晚上的学习，终于打开了一个全新的世界，github+Hexo自主搭建blog的感觉很nice. &lt;/p&gt;
+</summary>
       
     
     
