@@ -1,6 +1,4 @@
-http://example.com/2023/02/27/cof-databse/
-http://example.com/2023/02/27/databse/
-http://example.com/COF-Database2.html
+http://example.com/2023/02/27/cof-databse-zheng-li/
 http://example.com/2023/02/23/first-blog/
 http://example.com/about/index.html
 http://example.com/Archives/index.html
