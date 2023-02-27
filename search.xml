@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>COF Database</title>
+      <link href="/2023/02/23/cof-database/"/>
+      <url>/2023/02/23/cof-database/</url>
+      
+        <content type="html"><![CDATA[<p>目前COF的研究非常火热，参考MOF数据库的成功建立，COF数据库近几年也有比较完善的建立。当前COF数据库主要分为实验合成和计算合成，以下分别总结了目前具有代表性的COF数据库：</p><hr><p>COF Database:</p><p>[1] hypoCOFs 数据库目前已更新到第三版本，V3版本包括69840个计算合成的COF结构</p><p>网址链接：<a href="https://archive.materialscloud.org/record/2018.0003/v3">https://archive.materialscloud.org/record/2018.0003/v3</a>&nbsp;</p><p>Reference：</p><p>D. Ongari, A.V. Yakutovich, L. Talirz, B. Smit.Building a consistent and reproducible database for adsorption evaluation in covalent-organic frameworks</p><p>Mater. Cloud Arch., 100 (2021), p. 2021</p><p>R. Mercado, R.-S. Fu, A.V. Yakutovich, L. Talirz, M. Haranczyk, B. Smit .In silico design of 2D and 3D covalent organic frameworks for methane storage applications</p><p>Mater. Cloud Arch., 0003/v3 (2018), p. 2018</p><p>[2]北化工团队基于材料基因计算合成的COF数据库，GCOFs database包括471,990结构，其中 包括166,684 2D-COFs 和 305,306 3D-COFs .</p><p>网址链接：<a href="https://figshare.com/s/c7e3b7610a71b9d64210">https://figshare.com/s/c7e3b7610a71b9d64210</a></p><p>Reference：</p><p>Lan, Y., Han, X., Tong, M.&nbsp;et al.&nbsp;Materials genomics methods for high-throughput&nbsp;construction of COFs and targeted synthesis.&nbsp;Nat Commun&nbsp;9, 5274 (2018). <a href="https://doi.org/10.1038/s41467-018-07720-x">https://doi.org/10.1038/s41467-018-07720-x</a></p><hr><p>实验合成</p><p>[1] CoRe-COFs数据库目前更新到第六版本，V6版本包括613个COF结构，</p><p>网址链接：<a href="https://github.com/core-cof/CoRE-COF-Database">https://github.com/core-cof/CoRE-COF-Database</a></p><p>Reference：</p><p>Minman Tong, Youshi Lan, Qingyuan Yang, and Chongli Zhong, Exploring the structure-property relationships of covalent organic frameworks for noble gas separations.&nbsp;Chem. Eng. Sci.&nbsp;2017, 168, 456-464.</p><p>[2]CURATED COFs数据库目前已更新到第九版本(June 2021)，V9版本包括648个COF结构.</p><p>其中CURATED&nbsp;指的是：Clean, Uniform, Refined with Automatic Tracking from Experimental Database”&nbsp;</p><p>网址链接：<a href="https://www.materialscloud.org/discover/curated-cofs#mcloudHeader">https://www.materialscloud.org/discover/curated-cofs#mcloudHeader</a></p><p>Reference：</p><p>Daniele Ongari, Aliaksandr V. Yakutovich, Leopold Talirz, Berend Smit,&nbsp;Building a consistent and reproducible database for adsorption evaluation in Covalent-Organic Frameworks, Materials Cloud Archive&nbsp;2021.100&nbsp;(2021), doi:&nbsp;10.24435/materialscloud:z6-jn. 作者：港村的正同学 <a href="https://www.bilibili.com/read/cv19833767?spm_id_from=333.999.0.0">https://www.bilibili.com/read/cv19833767?spm_id_from=333.999.0.0</a> 出处：bilibili</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Research </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> COF;Database; </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Strat</title>
       <link href="/2023/02/23/first-blog/"/>
       <url>/2023/02/23/first-blog/</url>
