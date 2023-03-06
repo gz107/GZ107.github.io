@@ -353,7 +353,7 @@ body {
   color: var(--text-color-3);
   font-weight: 400;
   font-size: 15.2px;
-  font-family: Optima-Regular, Optima, PingFang SC, Microsoft YaHei, sans-serif;
+  font-family: STKaiti;
   line-height: 22px;
   letter-spacing: 0.2px;
   background: var(--background-color-1);
@@ -3106,6 +3106,7 @@ pre .javascript .function {
   padding-bottom: 2rem;
   color: var(--text-color-3);
   word-wrap: break-word;
+  border-bottom: 0.1rem dashed var(--border-color);
 }
 .post-page-container .article-content-container .article-content .article-aging-tips {
   position: relative;
