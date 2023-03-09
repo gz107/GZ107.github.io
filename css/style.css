@@ -352,7 +352,7 @@ body {
   padding: 0;
   color: var(--text-color-3);
   font-weight: 400;
-  font-size: 15.2px;
+  font-size: 18px;
   font-family: STKaiti;
   line-height: 22px;
   letter-spacing: 0.2px;
@@ -380,14 +380,14 @@ body::-webkit-scrollbar {
 @media (max-width: 800px) {
   html,
   body {
-    font-size: 14.591999999999999px;
+    font-size: 17.28px;
     line-height: 21.119999999999997px;
   }
 }
 @media (max-width: 500px) {
   html,
   body {
-    font-size: 13.68px;
+    font-size: 16.2px;
     line-height: 19.8px;
   }
 }
@@ -2555,6 +2555,17 @@ pre .javascript .function {
   height: 100vh;
   overflow: hidden;
   background: url("/images/bg.svg") center center/cover no-repeat;
+  background-position-y: 70px;
+}
+@media (max-width: 800px) {
+  .first-screen-container {
+    background-position-y: 63px;
+  }
+}
+@media (max-width: 500px) {
+  .first-screen-container {
+    background-position-y: 56px;
+  }
 }
 .first-screen-container .content {
   position: relative;
@@ -2564,14 +2575,14 @@ pre .javascript .function {
   padding-top: 2rem;
 }
 .first-screen-container .content .description {
-  color: var(--text-color-3);
+  color: #06c;
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.8;
   text-align: center;
 }
 .first-screen-container .content .description .desc-item {
-  color: var(--text-color-3);
+  color: #06c;
 }
 @media (max-width: 800px) {
   .first-screen-container .content .description {
