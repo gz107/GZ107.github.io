@@ -1,3 +1,4 @@
+http://example.com/2023/03/09/feng-tian-qing-ran-liao-dian-chi-qi-che-fa-zhan-de-li-shi/
 http://example.com/2023/02/27/cof-databse-zheng-li/
 http://example.com/about/index.html
 http://example.com/2023/03/02/get-unitcell/
@@ -11,4 +12,5 @@ http://example.com/
 http://example.com/tags/COF-Database/
 http://example.com/tags/essay%EF%BC%9B/
 http://example.com/tags/molecular-simulation%EF%BC%9B/
+http://example.com/tags/%E7%87%83%E6%96%99%E7%94%B5%E6%B1%A0/
 http://example.com/categories/Research/
