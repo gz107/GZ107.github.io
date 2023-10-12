@@ -32,14 +32,14 @@
     <script id="hexo-configurations">
     let KEEP = window.KEEP || {}
     KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"en","path":"search.xml"}
-    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#0066cc","logo":"/images/logo.svg","favicon":"/images/logo.svg","avatar":"/images/avatar.svg","font_size":"18px","font_family":"STKaiti","hover":{"shadow":false,"scale":false},"first_screen":{"enable":true,"header_transparent":false,"background_img":"/images/bg.svg","description":"Be honest with yourself(知行合一).","font_color":"#0066CC","hitokoto":false},"scroll":{"progress_bar":true,"percent":false}},"local_search":{"enable":true,"preload":true},"code_copy":{},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":false},"lazyload":{"enable":false},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.8"},"waline":{"server_url":null,"reaction":false,"version":2}},"post":{"author_label":{"enable":true,"auto":true,"custom_label_list":["Trainee","Engineer","Architect"]},"word_count":{"enable":false,"wordcount":false,"min2read":false},"img_align":"center","copyright_info":true},"version":"3.6.1"}
+    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#0066cc","logo":"/images/logo.svg","favicon":"/images/logo.svg","avatar":"/images/avatar.svg","font_size":"18px","font_family":"STKaiti","hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"header_transparent":true,"background_img":"/images/bg.svg","description":"Be honest with yourself (知行合一).","font_color":"#0066CC","hitokoto":false},"scroll":{"progress_bar":true,"percent":false}},"local_search":{"enable":true,"preload":true},"code_copy":{},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":false},"lazyload":{"enable":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.8"},"waline":{"server_url":null,"reaction":false,"version":2}},"post":{"author_label":{"enable":true,"auto":true,"custom_label_list":["Trainee","Engineer","Architect"]},"word_count":{"enable":false,"wordcount":false,"min2read":false},"img_align":"center","copyright_info":true},"version":"3.6.1"}
     KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"}
     KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"}
     KEEP.language_copy_copyright = {"copy":"Copy copyright info","copied":"Copied","title":"Original article title","author":"Original article author","link":"Original article link"}
   </script>
-<meta name="generator" content="Hexo 6.3.0">
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Brooks's Blog" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Brooks's Blog" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
@@ -113,6 +113,14 @@
                     
                         <li class="menu-item">
                             <a class=""
+                               href="/publications"
+                            >
+                                PUBLICATIONS
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
                                href="/about"
                             >
                                 ABOUT
@@ -158,6 +166,11 @@
                 <li class="drawer-menu-item flex-center">
                     <a class=""
                        href="/categories">CATEGORIES</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/publications">PUBLICATIONS</a>
                 </li>
             
                 <li class="drawer-menu-item flex-center">
@@ -245,10 +258,6 @@
     
     
     
-        <span class="article-pv article-meta-item">
-            <i class="fas fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
-        </span>
-    
 </div>
 
                         </div>
@@ -266,13 +275,13 @@
 <p>●<strong>2002年，</strong>丰田推出了在FCHV-4上改进FCHV，得到了日本政府的认证，并开始在日本和美国进行小范围的销售。并且在2005年，丰田的FCHV得到了日本政府的型式认证（type certification）。</p>
 <p>●<strong>2008年，</strong>丰田推出了FCHV-adv，也就是这款车搭载了图1中的丰田第二代燃料电池。该车依然基于汉兰达的平台改装而来，使用了4个70MPa的储氢罐，行驶里程达到了760公里。</p>
 <p>●&nbsp;<strong>2015年，</strong>大家熟悉的mirai上线了。10月21日，mirai开始在加州销售和交付。</p>
-<p><img src="/image/2.png"></p>
+<p><img lazyload="" alt="image" data-src="/image/2.png"></p>
 <p>&nbsp;</p>
 <h2 id="2-丰田燃料电池汽车专利布局（核心专利剖析）"><a href="#2-丰田燃料电池汽车专利布局（核心专利剖析）" class="headerlink" title="2.丰田燃料电池汽车专利布局（核心专利剖析）"></a><strong>2.丰田燃料电池汽车专利布局（核心专利剖析）</strong></h2><p>氢能源燃料电池汽车是电动汽车的一种，其核心部件燃料电池。通过氢气和氧气的化学作用，而不是经过燃烧，直接变成电能动力。燃料电池汽车的氢燃料能通过几种途径得到。有些车辆直接携带着纯氢燃料，另外一些车辆有可能装有燃料重整器，能将烃类燃料转化为富氢气体。单个的燃料电池必须结合成燃料电池组，以便获得必需的动力，满足车辆使用的要求。</p>
-<p><img src="/image/3.png"></p>
+<p><img lazyload="" alt="image" data-src="/image/3.png"></p>
 <p>&nbsp;</p>
 <p>燃料电池车是新能源车，具有使用可再生能源、零排放和加燃料时间与燃油车接近的特点，越来越受到国内外相关企业与研究人员的重视。针对丰田汽车公开的与燃料电池车相关的5000多项专利，进行了大量的检索和分析，分类介绍其相关专利，包括燃料电池车、氢气生产与供应技术、燃料系统软件控制技术、燃料电池堆技术与高压储氢罐技术等。</p>
-<p><img src="/image/4.png"></p>
+<p><img lazyload="" alt="image" data-src="/image/4.png"></p>
 <p>&nbsp;</p>
 <p>燃料电池汽车以其高效、无噪音、零污染优势，体现了未来汽车能源和环保的趋势，引领汽车工业革命的新潮流。丰田公司于2015年1月5日在美国拉斯韦加斯国际消费电子展的媒体预展上宣布，该公司约5680项氢燃料电池专利技术将免费开放给同行使用，旨在推动并主导氢燃料电池汽车产业的发展，其中，与燃料电池汽车相关专利将免费开放至2020年。日本丰田公司免费开放氢燃料电池专利技术的举措，无疑又一次在全球的汽车行业掀起了新一轮的氢燃料汽车发展热潮。</p>
 <h3 id="2-1燃料电池堆技术专利"><a href="#2-1燃料电池堆技术专利" class="headerlink" title="2.1燃料电池堆技术专利"></a><strong>2.1燃料电池堆技术专利</strong></h3><p>燃料电池堆是燃料电池发电的核心部分，主要包括电池结构、电极板、膜电极、质子交换膜以及电极催化剂材料等。在该部分的专利检索中共检索到1369项专利，其中丰田公司在中国申请的有276项。丰田公司在中国申请的专利主要集中在膜电极与催化剂的结合，以及燃料电池的整车搭载方面，但在中国申请的专利主要局限在燃料电池结构与搭载方面，并没有过多涉及燃料电池膜电极与催化剂等。</p>
@@ -282,7 +291,7 @@
 <p>要解决这些问题，软件控制系统必不可少，主要计算电池状态以及电车的运行状态。所以丰田公司在这方面申请了大量的专利，掌握了大量的技术。</p>
 <h3 id="2-4氢气制取技术专利"><a href="#2-4氢气制取技术专利" class="headerlink" title="2.4氢气制取技术专利"></a><strong>2.4氢气制取技术专利</strong></h3><p>地球上的氢元素绝大多数氢元素以水的形式存在，传统的制氢方法为电解水，但是这种方法成本较大，每电解1kg氢气至少要30元，另外电解水会耗费大量电能，我国主要还是媒电，这样从根本上来说并没有解决环保问题。丰田公司专利中就有关于环保节能产生氢气的方法，原理是利用电解质中添加光催化剂的方法使水分解，另外还有一篇专利是利用多价态金属氧化物制取氢气，反应的能量由太阳能提供，生产的氢气可以直接使用，虽然这些专利的氢气的转换效率还是不能和现在的有机物的化学重整法相比较，但是丰田车载自制氢方面，还是可以利用的。</p>
 <h2 id="3-丰田燃料电池汽车在中国的专利情况"><a href="#3-丰田燃料电池汽车在中国的专利情况" class="headerlink" title="3.丰田燃料电池汽车在中国的专利情况"></a><strong>3.丰田燃料电池汽车在中国的专利情况</strong></h2><p>在中国专利数据库中，通过分类号、关键词进行检索，统计得到丰田关于燃料电池的申请共962件。丰田汽车公司关于燃料电池的在中国专利的历年申请趋势，2003年后，其专利申请开始大幅增加，2007年的相关专利申请达到最大值，2008年的申请量开始逐渐减少，2009年的申请量下降到不及2008年的一半，随后申请量逐年递减。</p>
-<p><img src="/image/5.png">
+<p><img lazyload="" alt="image" data-src="/image/5.png">
 &nbsp;</p>
 <p>结语</p>
 <p>丰田公司公开的燃料电池专利数量居世界首位，其专利基本涉及了从氢气制造生产到氢能源车的整车装备方面，具备了市场化的所有条件，将进一步推进氢能源燃料电池汽车产业的产业化。从其在国内的专利分析来看，氢能源燃料电池相关专利在中国已颇具规模，且技术领域涵盖了燃料电池汽车的几个主要组成部分，涉及燃料电池汽车相关专利的免费使用是有期限的，中国的汽车企业在享受免费专利的同时，不能忘记及时制定自身燃料电池汽车的专利发展战略，我国的氢燃料汽车仍然有很长的路要走。</p>
@@ -381,7 +390,7 @@
         <div class="copyright-info info-item">
             &copy;
             
-                <span>2020</span> -
+                <span>2022</span> -
             
             2023
             
@@ -443,6 +452,15 @@
         </li>
 
         <!-- rss -->
+        
+            <li class="tools-item rss flex-center">
+                <a class="flex-center"
+                   href="/atom.xml"
+                   target="_blank"
+                >
+                    <i class="fas fa-rss"></i>
+                </a>
+            </li>
         
 
         
@@ -531,6 +549,10 @@
 <script src="/js/code-block.js"></script>
 
 
+
+
+    
+<script src="/js/lazyload.js"></script>
 
 
 
