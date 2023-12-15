@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-10T07:39:16.879Z</updated>
+  <updated>2023-12-15T06:52:51.126Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>shell script</title>
+    <link href="http://example.com/2023/12/15/vasp-shell-script/"/>
+    <id>http://example.com/2023/12/15/vasp-shell-script/</id>
+    <published>2023-12-15T06:50:00.000Z</published>
+    <updated>2023-12-15T06:52:51.126Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="VASP计算中shell脚本处理"><a href="#VASP计算中shell脚本处理" class="headerlink" title="VASP计算中shell脚本处理"></a>VASP计算中shell脚本处理</h1><hr><h2 id="——-script撰写-——–-1-for-循环"><a href="#——-script撰写-——–-1-for-循环" class="headerlink" title="——#script撰写#——–## [1] for 循环"></a>——#script撰写#——–<br>## [1] for 循环</h2><p>#! /bin/bash</p><p>for i in 1 2 3 4<br>do<br>for j in a b c d<br>do</p><p>mkdir {$i}-{$j}</p><h2 id="donedone"><a href="#donedone" class="headerlink" title="donedone"></a>done<br>done</h2><h2 id="2-批量化的任务提交"><a href="#2-批量化的任务提交" class="headerlink" title="[2] 批量化的任务提交"></a>[2] 批量化的任务提交</h2><h2 id="vi-shell"><a href="#vi-shell" class="headerlink" title="vi shell"></a>vi shell</h2><p>#复制及提交任务，假设现在有一个egl文件#<br>#! /bin/bash</p><p>for i in 300 350 400 450 500<br>do<br>cp -r egl $i   #复制egl文件命名为i(1 2 3 4)<br>cd $i   #进入该文件<br>echo “ENCUT=$i” &gt;&gt; INCAR   #&gt;&gt;表示输出重定向<br>echo “ISIF=3” &gt;&gt;INCAR<br>sbatch JOB<br>cd ..</p><h2 id="done"><a href="#done" class="headerlink" title="done"></a>done</h2><p>:wq    #保存输入的文件</p><hr><h2 id="3-整个script一次性写出来"><a href="#3-整个script一次性写出来" class="headerlink" title="[3] 整个script一次性写出来"></a>[3] 整个script一次性写出来</h2><p>EOF /end of file</p><p>for i in 300 350 400 450<br>do<br>cp -r egl $i<br>cd $i<br>cat &lt;<eof> INCAR<br>ISTART=0<br>ICHARG=2<br>ISPIN=1<br>PREC=N<br>ALGO=N<br>NELM=80<br>EDIFF=1E-5<br>IBRION=2<br>NSW=100<br>ISIF=3<br>…..<br>EOF<br>sbatch JOB<br>cd ..</eof></p><h2 id="done-1"><a href="#done-1" class="headerlink" title="done"></a>done</h2><p>for i in 300 350 400 450<br>do<br>cp -r egl $i<br>cd $i<br>echo “ENCUT=$i” &gt;&gt; INCAR</p><p>done</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;VASP计算中shell脚本处理&quot;&gt;&lt;a href=&quot;#VASP计算中shell脚本处理&quot; class=&quot;headerlink&quot; title=&quot;VASP计算中shell脚本处理&quot;&gt;&lt;/a&gt;VASP计算中shell脚本处理&lt;/h1&gt;&lt;hr&gt;
+&lt;h2 id=&quot;——-s</summary>
+      
+    
+    
+    
+    <category term="Research" scheme="http://example.com/categories/Research/"/>
+    
+    
+    <category term="VASP;shell;" scheme="http://example.com/tags/VASP-shell/"/>
+    
+  </entry>
   
   <entry>
     <title>丰田氢燃料电池汽车发展的历史</title>
@@ -69,7 +94,7 @@
     <link href="http://example.com/2023/02/27/cof-databse/"/>
     <id>http://example.com/2023/02/27/cof-databse/</id>
     <published>2023-02-27T12:30:46.000Z</published>
-    <updated>2023-10-12T08:12:12.010Z</updated>
+    <updated>2023-12-15T06:52:56.221Z</updated>
     
     <content type="html"><![CDATA[<p>目前COF的研究非常火热，参考MOF数据库的成功建立，COF数据库近几年也有比较完善的建立。当前COF数据库主要分为实验合成和计算合成，以下分别总结了目前具有代表性的COF数据库：</p><hr><h1 id="COF-Database"><a href="#COF-Database" class="headerlink" title="COF Database:"></a>COF Database:</h1><h2 id="1-hypoCOFs-数据库目前已更新到第三版本，V3版本包括69840个计算合成的COF结构"><a href="#1-hypoCOFs-数据库目前已更新到第三版本，V3版本包括69840个计算合成的COF结构" class="headerlink" title="[1] hypoCOFs 数据库目前已更新到第三版本，V3版本包括69840个计算合成的COF结构"></a>[1] hypoCOFs 数据库目前已更新到第三版本，V3版本包括69840个计算合成的COF结构</h2><p>网址链接：<a class="link" href="https://archive.materialscloud.org/record/2018.0003/v3">https://archive.materialscloud.org/record/2018.0003/v3<i class="fas fa-external-link-alt"></i></a>&nbsp;</p><p>Reference：</p><p>D. Ongari, A.V. Yakutovich, L. Talirz, B. Smit.Building a consistent and reproducible database for adsorption evaluation in covalent-organic frameworks</p><p>Mater. Cloud Arch., 100 (2021), p. 2021</p><p>R. Mercado, R.-S. Fu, A.V. Yakutovich, L. Talirz, M. Haranczyk, B. Smit .In silico design of 2D and 3D covalent organic frameworks for methane storage applications</p><p>Mater. Cloud Arch., 0003/v3 (2018), p. 2018</p><h2 id="2-北化工团队基于材料基因计算合成的COF数据库，GCOFs-database包括471-990结构，其中-包括166-684-2D-COFs-和-305-306-3D-COFs"><a href="#2-北化工团队基于材料基因计算合成的COF数据库，GCOFs-database包括471-990结构，其中-包括166-684-2D-COFs-和-305-306-3D-COFs" class="headerlink" title="[2]北化工团队基于材料基因计算合成的COF数据库，GCOFs database包括471,990结构，其中 包括166,684 2D-COFs 和 305,306 3D-COFs ."></a>[2]北化工团队基于材料基因计算合成的COF数据库，GCOFs database包括471,990结构，其中 包括166,684 2D-COFs 和 305,306 3D-COFs .</h2><p>网址链接：<a class="link" href="https://figshare.com/s/c7e3b7610a71b9d64210">https://figshare.com/s/c7e3b7610a71b9d64210<i class="fas fa-external-link-alt"></i></a></p><p>Reference：</p><p>Lan, Y., Han, X., Tong, M.&nbsp;et al.&nbsp;Materials genomics methods for high-throughput&nbsp;construction of COFs and targeted synthesis.&nbsp;Nat Commun&nbsp;9, 5274 (2018). <a class="link" href="https://doi.org/10.1038/s41467-018-07720-x">https://doi.org/10.1038/s41467-018-07720-x<i class="fas fa-external-link-alt"></i></a></p><hr><h1 id="实验合成"><a href="#实验合成" class="headerlink" title="实验合成"></a>实验合成</h1><h2 id="1-CoRe-COFs数据库目前更新到第六版本，V6版本包括613个COF结构，"><a href="#1-CoRe-COFs数据库目前更新到第六版本，V6版本包括613个COF结构，" class="headerlink" title="[1] CoRe-COFs数据库目前更新到第六版本，V6版本包括613个COF结构，"></a>[1] CoRe-COFs数据库目前更新到第六版本，V6版本包括613个COF结构，</h2><p>More info: <a class="link" href="https://github.com/core-cof/CoRE-COF-Database">CoRe-COFs<i class="fas fa-external-link-alt"></i></a></p><p>Reference：</p><p>Minman Tong, Youshi Lan, Qingyuan Yang, and Chongli Zhong, Exploring the structure-property relationships of covalent organic frameworks for noble gas separations.&nbsp;Chem. Eng. Sci.&nbsp;2017, 168, 456-464.</p><h2 id="2-CURATED-COFs数据库目前已更新到第九版本-June-2021-，V9版本包括648个COF结构"><a href="#2-CURATED-COFs数据库目前已更新到第九版本-June-2021-，V9版本包括648个COF结构" class="headerlink" title="[2]CURATED COFs数据库目前已更新到第九版本(June 2021)，V9版本包括648个COF结构."></a>[2]CURATED COFs数据库目前已更新到第九版本(June 2021)，V9版本包括648个COF结构.</h2><p>其中CURATED&nbsp;指的是：Clean, Uniform, Refined with Automatic Tracking from Experimental Database”&nbsp;</p><p>网址链接：<a class="link" href="https://www.materialscloud.org/discover/curated-cofs#mcloudHeader">https://www.materialscloud.org/discover/curated-cofs#mcloudHeader<i class="fas fa-external-link-alt"></i></a><br>More info: <a class="link" href="https://github.com/danieleongari/CURATED-COFs">CURATED-COFs<i class="fas fa-external-link-alt"></i></a><br>Reference：</p><p>Daniele Ongari, Aliaksandr V. Yakutovich, Leopold Talirz, Berend Smit,&nbsp;Building a consistent and reproducible database for adsorption evaluation in Covalent-Organic Frameworks, Materials Cloud Archive&nbsp;2021.100&nbsp;(2021), doi:&nbsp;10.24435/materialscloud:z6-jn. </p>]]></content>
     

@@ -9,7 +9,7 @@
     
     <title>
         
-            Archive: 2023/2 |
+            shell script |
         
         Z.Gao
     </title>
@@ -88,7 +88,7 @@
                         </li>
                     
                         <li class="menu-item">
-                            <a class="active"
+                            <a class=""
                                href="/archives"
                             >
                                 ARCHIVES
@@ -154,7 +154,7 @@
                 </li>
             
                 <li class="drawer-menu-item flex-center">
-                    <a class="active"
+                    <a class=""
                        href="/archives">ARCHIVES</a>
                 </li>
             
@@ -194,59 +194,172 @@
 
                 
                     <div class="fade-in-down-animation">
-    <div class="archive-container ">
-        
-<div class="archive-list-container">
-    
-        <section class="archive-item">
-            <div class="archive-item-header">
-                <span class="archive-year">2023</span>
-                <span class="archive-year-post-count">[5]</span>
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            <div class="article-title">
+                <span class="title-hover-animation">shell script</span>
             </div>
-            <ul class="article-list">
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/images/avatar.svg">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">Z.Gao</span>
+                            
+                                <span class="author-label">Lv1</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2023-12-15 14:50:00</span>
+        <span class="mobile">2023-12-15 14:50</span>
+    </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2023-12-15 14:52:51</span>
+    </span>
+    
+    
+        <span class="article-categories article-meta-item">
+            <i class="fas fa-folder"></i>&nbsp;
+            <ul>
                 
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2023/12/15/vasp-shell-script/"
-                        >shell script</a>
-                        <span class="article-date">12-15</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2023/03/09/feng-tian-qing-ran-liao-dian-chi-qi-che-fa-zhan-de-li-shi/"
-                        >丰田氢燃料电池汽车发展的历史</a>
-                        <span class="article-date">03-09</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2023/03/02/get-unitcell/"
-                        >get unitcell in molecular simulation from cif file</a>
-                        <span class="article-date">03-02</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2023/02/27/cof-databse/"
-                        >COF-databse</a>
-                        <span class="article-date">02-27</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2023/02/23/first-blog/"
-                        >Strat</a>
-                        <span class="article-date">02-23</span>
+                    <li>
+                        <a href="/categories/Research/">Research</a>&nbsp;
                     </li>
                 
             </ul>
-        </section>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/VASP-shell/">VASP;shell;</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
     
 </div>
 
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content keep-markdown-body">
+                
+
+                <h1 id="VASP计算中shell脚本处理"><a href="#VASP计算中shell脚本处理" class="headerlink" title="VASP计算中shell脚本处理"></a>VASP计算中shell脚本处理</h1><hr>
+<h2 id="——-script撰写-——–-1-for-循环"><a href="#——-script撰写-——–-1-for-循环" class="headerlink" title="——#script撰写#——–## [1] for 循环"></a>——#script撰写#——–<br>## [1] for 循环</h2><p>#! /bin/bash</p>
+<p>for i in 1 2 3 4<br>do<br>for j in a b c d<br>do</p>
+<p>mkdir {$i}-{$j}</p>
+<h2 id="donedone"><a href="#donedone" class="headerlink" title="donedone"></a>done<br>done</h2><h2 id="2-批量化的任务提交"><a href="#2-批量化的任务提交" class="headerlink" title="[2] 批量化的任务提交"></a>[2] 批量化的任务提交</h2><h2 id="vi-shell"><a href="#vi-shell" class="headerlink" title="vi shell"></a>vi shell</h2><p>#复制及提交任务，假设现在有一个egl文件#<br>#! /bin/bash</p>
+<p>for i in 300 350 400 450 500<br>do<br>cp -r egl $i   #复制egl文件命名为i(1 2 3 4)<br>cd $i   #进入该文件<br>echo “ENCUT=$i” &gt;&gt; INCAR   #&gt;&gt;表示输出重定向<br>echo “ISIF=3” &gt;&gt;INCAR<br>sbatch JOB<br>cd ..</p>
+<h2 id="done"><a href="#done" class="headerlink" title="done"></a>done</h2><p>:wq    #保存输入的文件</p>
+<hr>
+<h2 id="3-整个script一次性写出来"><a href="#3-整个script一次性写出来" class="headerlink" title="[3] 整个script一次性写出来"></a>[3] 整个script一次性写出来</h2><p>EOF /end of file</p>
+<p>for i in 300 350 400 450<br>do<br>cp -r egl $i<br>cd $i<br>cat &lt;<eof> INCAR<br>ISTART=0<br>ICHARG=2<br>ISPIN=1<br>PREC=N<br>ALGO=N<br>NELM=80<br>EDIFF=1E-5<br>IBRION=2<br>NSW=100<br>ISIF=3<br>…..<br>EOF<br>sbatch JOB<br>cd ..</eof></p>
+<h2 id="done-1"><a href="#done-1" class="headerlink" title="done"></a>done</h2><p>for i in 300 350 400 450<br>do<br>cp -r egl $i<br>cd $i<br>echo “ENCUT=$i” &gt;&gt; INCAR</p>
+<p>done</p>
+
+            </div>
+
+            
+                <div class="post-copyright-info">
+                    
+<div class="article-copyright-info-container">
+    <ul class="copyright-info-content">
+        <li class="post-title">
+            <span class="type">Post title</span>: <span class="content">shell script</span>
+        </li>
+        <li class="post-author">
+            <span class="type">Post author</span>: <span class="content">Z.Gao</span>
+        </li>
+        <li class="post-time">
+            <span class="type">Create time</span>: <span class="content">2023-12-15 14:50:00</span>
+        </li>
+        <li class="post-link">
+            <span class="type">Post link</span>: <span class="content">2023/12/15/vasp-shell-script/</span>
+        </li>
+        <li class="post-license">
+            <span class="type">Copyright notice</span>: <span class="content">All articles in this blog are licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> unless stating additionally.</span>
+        </li>
+    </ul>
+    <div class="copy-copyright-info flex-center tooltip" data-content="Copy copyright info" data-offset-y="-2px">
+        <i class="fa-solid fa-copy"></i>
     </div>
 </div>
+
+                </div>
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/tags/VASP-shell/">#VASP;shell;</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <div class="article-nav">
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/2023/03/09/feng-tian-qing-ran-liao-dian-chi-qi-che-fa-zhan-de-li-shi/"
+                            >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">丰田氢燃料电池汽车发展的历史</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                                <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#VASP%E8%AE%A1%E7%AE%97%E4%B8%ADshell%E8%84%9A%E6%9C%AC%E5%A4%84%E7%90%86"><span class="nav-text">VASP计算中shell脚本处理</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E2%80%94%E2%80%94-script%E6%92%B0%E5%86%99-%E2%80%94%E2%80%94%E2%80%93-1-for-%E5%BE%AA%E7%8E%AF"><span class="nav-text">——#script撰写#——–## [1] for 循环</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#donedone"><span class="nav-text">donedone</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E6%89%B9%E9%87%8F%E5%8C%96%E7%9A%84%E4%BB%BB%E5%8A%A1%E6%8F%90%E4%BA%A4"><span class="nav-text">[2] 批量化的任务提交</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#vi-shell"><span class="nav-text">vi shell</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#done"><span class="nav-text">done</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E6%95%B4%E4%B8%AAscript%E4%B8%80%E6%AC%A1%E6%80%A7%E5%86%99%E5%87%BA%E6%9D%A5"><span class="nav-text">[3] 整个script一次性写出来</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#done-1"><span class="nav-text">done</span></a></li></ol></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
 
                 
             </div>
@@ -287,6 +400,23 @@
         </div>
     </div>
 
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
     
 
     <div class="right-bottom-side-tools">
@@ -410,6 +540,20 @@
 
 
 <div class="post-scripts">
+    
+        
+<script src="/js/post-helper.js"></script>
+
+        
+            
+<script src="/js/libs/anime.min.js"></script>
+
+        
+        
+            
+<script src="/js/toc.js"></script>
+
+        
     
 </div>
 
