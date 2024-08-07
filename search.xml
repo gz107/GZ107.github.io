@@ -74,28 +74,12 @@
       </tags>
   </entry>
   <entry>
-    <title>shell script</title>
-    <url>/2023/12/15/vasp-shell-script/</url>
-    <content><![CDATA[<h1 id="VASP计算中shell脚本处理"><a href="#VASP计算中shell脚本处理" class="headerlink" title="VASP计算中shell脚本处理"></a>VASP计算中shell脚本处理</h1><hr>
-<p>——#script撰写#——–</p>
-<h2 id="1-for-循环"><a href="#1-for-循环" class="headerlink" title="[1] for 循环"></a>[1] for 循环</h2><hr>
-<p>#! /bin/bash</p>
-<p>for i in 1 2 3 4<br>do<br>for j in a b c d<br>do</p>
-<p>mkdir {$i}-{$j}</p>
-<h2 id="donedone"><a href="#donedone" class="headerlink" title="donedone"></a>done<br>done</h2><h2 id="2-批量化的任务提交"><a href="#2-批量化的任务提交" class="headerlink" title="[2] 批量化的任务提交"></a>[2] 批量化的任务提交</h2><h2 id="vi-shell"><a href="#vi-shell" class="headerlink" title="vi shell"></a>vi shell</h2><p>#复制及提交任务，假设现在有一个egl文件#<br>#! /bin/bash</p>
-<p>for i in 300 350 400 450 500<br>do<br>cp -r egl $i   #复制egl文件命名为i(1 2 3 4)<br>cd $i   #进入该文件<br>echo “ENCUT=$i” &gt;&gt; INCAR   #&gt;&gt;表示输出重定向<br>echo “ISIF=3” &gt;&gt;INCAR<br>sbatch JOB<br>cd ..</p>
-<h2 id="done"><a href="#done" class="headerlink" title="done"></a>done</h2><p>:wq    #保存输入的文件</p>
-<hr>
-<h2 id="3-整个script一次性写出来"><a href="#3-整个script一次性写出来" class="headerlink" title="[3] 整个script一次性写出来"></a>[3] 整个script一次性写出来</h2><p>EOF /end of file</p>
-<p>for i in 300 350 400 450<br>do<br>cp -r egl $i<br>cd $i<br>cat &lt;<eof> INCAR<br>ISTART=0<br>ICHARG=2<br>ISPIN=1<br>PREC=N<br>ALGO=N<br>NELM=80<br>EDIFF=1E-5<br>IBRION=2<br>NSW=100<br>ISIF=3<br>…..<br>EOF<br>sbatch JOB<br>cd ..</eof></p>
-<h2 id="done-1"><a href="#done-1" class="headerlink" title="done"></a>done</h2><p>for i in 300 350 400 450<br>do<br>cp -r egl $i<br>cd $i<br>echo “ENCUT=$i” &gt;&gt; INCAR</p>
-<p>done</p>
+    <title>Strat</title>
+    <url>/2023/02/23/first-blog/</url>
+    <content><![CDATA[<p>It’s my first Blog, so let’s start a whole new journey!科学网博客的注册实在让我无力吐槽，经过一晚上的学习，终于打开了一个全新的世界，github+Hexo自主搭建blog的感觉很nice. </p>
 ]]></content>
-      <categories>
-        <category>Research</category>
-      </categories>
       <tags>
-        <tag>VASP;shell;</tag>
+        <tag>essay；</tag>
       </tags>
   </entry>
   <entry>
@@ -148,12 +132,28 @@ return [a_unitcell,b_unitcell,c_unitcell]
       </tags>
   </entry>
   <entry>
-    <title>Strat</title>
-    <url>/2023/02/23/first-blog/</url>
-    <content><![CDATA[<p>It’s my first Blog, so let’s start a whole new journey!科学网博客的注册实在让我无力吐槽，经过一晚上的学习，终于打开了一个全新的世界，github+Hexo自主搭建blog的感觉很nice. </p>
+    <title>shell script</title>
+    <url>/2023/12/15/vasp-shell-script/</url>
+    <content><![CDATA[<h1 id="VASP计算中shell脚本处理"><a href="#VASP计算中shell脚本处理" class="headerlink" title="VASP计算中shell脚本处理"></a>VASP计算中shell脚本处理</h1><hr>
+<p>——#script撰写#——–</p>
+<h2 id="1-for-循环"><a href="#1-for-循环" class="headerlink" title="[1] for 循环"></a>[1] for 循环</h2><hr>
+<p>#! /bin/bash</p>
+<p>for i in 1 2 3 4<br>do<br>for j in a b c d<br>do</p>
+<p>mkdir {$i}-{$j}</p>
+<h2 id="donedone"><a href="#donedone" class="headerlink" title="donedone"></a>done<br>done</h2><h2 id="2-批量化的任务提交"><a href="#2-批量化的任务提交" class="headerlink" title="[2] 批量化的任务提交"></a>[2] 批量化的任务提交</h2><h2 id="vi-shell"><a href="#vi-shell" class="headerlink" title="vi shell"></a>vi shell</h2><p>#复制及提交任务，假设现在有一个egl文件#<br>#! /bin/bash</p>
+<p>for i in 300 350 400 450 500<br>do<br>cp -r egl $i   #复制egl文件命名为i(1 2 3 4)<br>cd $i   #进入该文件<br>echo “ENCUT=$i” &gt;&gt; INCAR   #&gt;&gt;表示输出重定向<br>echo “ISIF=3” &gt;&gt;INCAR<br>sbatch JOB<br>cd ..</p>
+<h2 id="done"><a href="#done" class="headerlink" title="done"></a>done</h2><p>:wq    #保存输入的文件</p>
+<hr>
+<h2 id="3-整个script一次性写出来"><a href="#3-整个script一次性写出来" class="headerlink" title="[3] 整个script一次性写出来"></a>[3] 整个script一次性写出来</h2><p>EOF /end of file</p>
+<p>for i in 300 350 400 450<br>do<br>cp -r egl $i<br>cd $i<br>cat &lt;<eof> INCAR<br>ISTART=0<br>ICHARG=2<br>ISPIN=1<br>PREC=N<br>ALGO=N<br>NELM=80<br>EDIFF=1E-5<br>IBRION=2<br>NSW=100<br>ISIF=3<br>…..<br>EOF<br>sbatch JOB<br>cd ..</eof></p>
+<h2 id="done-1"><a href="#done-1" class="headerlink" title="done"></a>done</h2><p>for i in 300 350 400 450<br>do<br>cp -r egl $i<br>cd $i<br>echo “ENCUT=$i” &gt;&gt; INCAR</p>
+<p>done</p>
 ]]></content>
+      <categories>
+        <category>Research</category>
+      </categories>
       <tags>
-        <tag>essay；</tag>
+        <tag>VASP;shell;</tag>
       </tags>
   </entry>
   <entry>
