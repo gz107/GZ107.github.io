@@ -1,26 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>shell script</title>
-    <url>/2023/12/15/vasp-shell-script/</url>
-    <content><![CDATA[<h1 id="VASP计算中shell脚本处理"><a href="#VASP计算中shell脚本处理" class="headerlink" title="VASP计算中shell脚本处理"></a>VASP计算中shell脚本处理</h1><hr>
-<h2 id="——-script撰写-——–-1-for-循环"><a href="#——-script撰写-——–-1-for-循环" class="headerlink" title="——#script撰写#——–## [1] for 循环"></a>——#script撰写#——–<br>## [1] for 循环</h2><p>#! /bin/bash</p>
-<p>for i in 1 2 3 4<br>do<br>for j in a b c d<br>do</p>
-<p>mkdir {$i}-{$j}</p>
-<h2 id="donedone"><a href="#donedone" class="headerlink" title="donedone"></a>done<br>done</h2><h2 id="2-批量化的任务提交"><a href="#2-批量化的任务提交" class="headerlink" title="[2] 批量化的任务提交"></a>[2] 批量化的任务提交</h2><h2 id="vi-shell"><a href="#vi-shell" class="headerlink" title="vi shell"></a>vi shell</h2><p>#复制及提交任务，假设现在有一个egl文件#<br>#! /bin/bash</p>
-<p>for i in 300 350 400 450 500<br>do<br>cp -r egl $i   #复制egl文件命名为i(1 2 3 4)<br>cd $i   #进入该文件<br>echo “ENCUT=$i” &gt;&gt; INCAR   #&gt;&gt;表示输出重定向<br>echo “ISIF=3” &gt;&gt;INCAR<br>sbatch JOB<br>cd ..</p>
-<h2 id="done"><a href="#done" class="headerlink" title="done"></a>done</h2><p>:wq    #保存输入的文件</p>
-<hr>
-<h2 id="3-整个script一次性写出来"><a href="#3-整个script一次性写出来" class="headerlink" title="[3] 整个script一次性写出来"></a>[3] 整个script一次性写出来</h2><p>EOF /end of file</p>
-<p>for i in 300 350 400 450<br>do<br>cp -r egl $i<br>cd $i<br>cat &lt;<eof> INCAR<br>ISTART=0<br>ICHARG=2<br>ISPIN=1<br>PREC=N<br>ALGO=N<br>NELM=80<br>EDIFF=1E-5<br>IBRION=2<br>NSW=100<br>ISIF=3<br>…..<br>EOF<br>sbatch JOB<br>cd ..</eof></p>
-<h2 id="done-1"><a href="#done-1" class="headerlink" title="done"></a>done</h2><p>for i in 300 350 400 450<br>do<br>cp -r egl $i<br>cd $i<br>echo “ENCUT=$i” &gt;&gt; INCAR</p>
-<p>done</p>
+    <title>洛阳行</title>
+    <url>/2024/08/07/2024-08-07/</url>
+    <content><![CDATA[<ul>
+<li><h1 id="洛阳行"><a href="#洛阳行" class="headerlink" title="洛阳行"></a>洛阳行</h1></li>
+<li><h2 id="2024-08-08出发-07-35-西安北出发-→-08-58-洛阳龙门"><a href="#2024-08-08出发-07-35-西安北出发-→-08-58-洛阳龙门" class="headerlink" title="2024.08.08出发 07:35 西安北出发 → 08:58 洛阳龙门"></a>2024.08.08出发 07:35 西安北出发 → 08:58 洛阳龙门</h2></li>
+<li><h3 id="地图"><a href="#地图" class="headerlink" title="地图"></a>地图</h3></li>
+<li><img lazyload="" alt="image" data-src="/../assets/image_1723002109441_0.png"></li>
+<li><h3 id="门票"><a href="#门票" class="headerlink" title="门票"></a>门票</h3></li>
+<li><img lazyload="" alt="image" data-src="/../assets/image_1723002046989_0.png"></li>
+<li></li>
+<li><h3 id="第一站改为龙门石窟-洛阳博物馆"><a href="#第一站改为龙门石窟-洛阳博物馆" class="headerlink" title="第一站改为龙门石窟  ++ 洛阳博物馆"></a>第一站改为龙门石窟  ++ 洛阳博物馆</h3></li>
+<li><img lazyload="" alt="image" data-src="/../assets/image_1723002932680_0.png"></li>
+<li></li>
+<li><img lazyload="" alt="image" data-src="/../assets/image_1723002946167_0.png"></li>
+<li><h3 id="龙门石窟去掉"><a href="#龙门石窟去掉" class="headerlink" title="龙门石窟去掉"></a>龙门石窟去掉</h3></li>
+<li><img lazyload="" alt="image" data-src="/../assets/image_1723002957464_0.png"></li>
+<li></li>
+<li><strong>—————————————龙门石窟—————————————————</strong></li>
+<li>90元/人。最好打车到西北服务区,这边进不用坐10元/人的电瓶车西北服务区这边还有一个“无上龙门”的沉浸式裸眼3D体验馆。</li>
+<li><img lazyload="" alt="image" data-src="/../assets/4352ad4ecb32e2ac4ce99452e954f7a_1723001354871_0.jpg"></li>
+<li><strong>———————————————老君山—————————————————</strong></li>
+<li>门票+两程索道往返288，建议跟个一日纯玩团走，省心，不用担心车程，看夜景也有夜景团。索道建议坐两程的往返或者中灵往返加峰林上(下山比较容易)带好身份证和一些顶饿的吃的</li>
+<li><img lazyload="" alt="image" data-src="/../assets/601080417d42ce6d05754ffedd7bf94_1723001373188_0.jpg"></li>
+<li><strong>———————————————白马寺—————————————————</strong></li>
+<li>门票35元/人，不用预约，到门口买纸质票，景区分为三部分:白马寺、国际佛殿展览区和齐云塔寺，面积不大，游玩时间2.5h</li>
+<li><img lazyload="" alt="image" data-src="/../assets/121d84a1fe434ca8e4439213c437558_1723001326987_0.jpg"></li>
+<li><strong>———————————————洛邑古城———————————————</strong></li>
+<li>免费的哦！门口预约一下就行啦，节假日要提前预约，景区不大，游玩时间2h,最好是晚上6点多过来,既能看到白天的景色，也能看到夜晚的景色<br><strong>———————————————洛阳博物馆——————————————</strong>  </li>
+<li>免费哒！！需要在官方号<strong>提前预约</strong>的哈！！周一闭馆！！</li>
+<li><strong>————————————————丽景门————————————————</strong></li>
+<li>从城楼进入，一条长街，逛吃逛吃，走到头了就是老城十字街夜市了这个夜市的人超级多，看好自己的手机姐妹们。丽景门城楼门票45，包含城楼、兵器展和体验游戏，不上也罢<br><strong>———————————————天堂名堂景区————————————</strong>  </li>
+<li>门票109元/人，性价比不高，景区不大，天堂明堂里有小表演，夜景在景区门外拍也很好看，不来也行</li>
+<li><img lazyload="" alt="image" data-src="/../assets/966277459c10dcb6208234338cc895b_1723001256035_0.jpg"></li>
+<li></li>
+<li><img lazyload="" alt="image" data-src="/../assets/1f83911a9aab72b672bee50a2b8f34b_1723001277854_0.jpg"></li>
+<li><img lazyload="" alt="image" data-src="/../assets/7b9d0306a68ef43cd9456180af62a77_1723001302485_0.jpg"></li>
+<li></li>
+</ul>
 ]]></content>
-      <categories>
-        <category>Research</category>
-      </categories>
       <tags>
-        <tag>VASP;shell;</tag>
+        <tag>Travel; Luo Yang;</tag>
       </tags>
   </entry>
   <entry>
@@ -50,6 +71,31 @@
       </categories>
       <tags>
         <tag>COF;Database;</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>shell script</title>
+    <url>/2023/12/15/vasp-shell-script/</url>
+    <content><![CDATA[<h1 id="VASP计算中shell脚本处理"><a href="#VASP计算中shell脚本处理" class="headerlink" title="VASP计算中shell脚本处理"></a>VASP计算中shell脚本处理</h1><hr>
+<p>——#script撰写#——–</p>
+<h2 id="1-for-循环"><a href="#1-for-循环" class="headerlink" title="[1] for 循环"></a>[1] for 循环</h2><hr>
+<p>#! /bin/bash</p>
+<p>for i in 1 2 3 4<br>do<br>for j in a b c d<br>do</p>
+<p>mkdir {$i}-{$j}</p>
+<h2 id="donedone"><a href="#donedone" class="headerlink" title="donedone"></a>done<br>done</h2><h2 id="2-批量化的任务提交"><a href="#2-批量化的任务提交" class="headerlink" title="[2] 批量化的任务提交"></a>[2] 批量化的任务提交</h2><h2 id="vi-shell"><a href="#vi-shell" class="headerlink" title="vi shell"></a>vi shell</h2><p>#复制及提交任务，假设现在有一个egl文件#<br>#! /bin/bash</p>
+<p>for i in 300 350 400 450 500<br>do<br>cp -r egl $i   #复制egl文件命名为i(1 2 3 4)<br>cd $i   #进入该文件<br>echo “ENCUT=$i” &gt;&gt; INCAR   #&gt;&gt;表示输出重定向<br>echo “ISIF=3” &gt;&gt;INCAR<br>sbatch JOB<br>cd ..</p>
+<h2 id="done"><a href="#done" class="headerlink" title="done"></a>done</h2><p>:wq    #保存输入的文件</p>
+<hr>
+<h2 id="3-整个script一次性写出来"><a href="#3-整个script一次性写出来" class="headerlink" title="[3] 整个script一次性写出来"></a>[3] 整个script一次性写出来</h2><p>EOF /end of file</p>
+<p>for i in 300 350 400 450<br>do<br>cp -r egl $i<br>cd $i<br>cat &lt;<eof> INCAR<br>ISTART=0<br>ICHARG=2<br>ISPIN=1<br>PREC=N<br>ALGO=N<br>NELM=80<br>EDIFF=1E-5<br>IBRION=2<br>NSW=100<br>ISIF=3<br>…..<br>EOF<br>sbatch JOB<br>cd ..</eof></p>
+<h2 id="done-1"><a href="#done-1" class="headerlink" title="done"></a>done</h2><p>for i in 300 350 400 450<br>do<br>cp -r egl $i<br>cd $i<br>echo “ENCUT=$i” &gt;&gt; INCAR</p>
+<p>done</p>
+]]></content>
+      <categories>
+        <category>Research</category>
+      </categories>
+      <tags>
+        <tag>VASP;shell;</tag>
       </tags>
   </entry>
   <entry>
