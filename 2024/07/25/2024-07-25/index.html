@@ -9,7 +9,7 @@
     
     <title>
         
-            Archive: 2023/2 |
+            Shell脚本命令学习 |
         
         Z.Gao
     </title>
@@ -88,7 +88,7 @@
                         </li>
                     
                         <li class="menu-item">
-                            <a class="active"
+                            <a class=""
                                href="/archives"
                             >
                                 ARCHIVES
@@ -162,7 +162,7 @@
                 </li>
             
                 <li class="drawer-menu-item flex-center">
-                    <a class="active"
+                    <a class=""
                        href="/archives">ARCHIVES</a>
                 </li>
             
@@ -207,104 +207,222 @@
 
                 
                     <div class="fade-in-down-animation">
-    <div class="archive-container ">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            <div class="article-title">
+                <span class="title-hover-animation">Shell脚本命令学习</span>
+            </div>
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/images/avatar.svg">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">Z.Gao</span>
+                            
+                                <span class="author-label">Lv2</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
+    <span class="article-date article-meta-item">
         
-<div class="archive-list-container">
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2024-07-25 13:25:30</span>
+        <span class="mobile">2024-07-25 13:25</span>
+    </span>
     
-        <section class="archive-item">
-            <div class="archive-item-header">
-                <span class="archive-year">2024</span>
-                <span class="archive-year-post-count">[5]</span>
-            </div>
-            <ul class="article-list">
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2024-08-07 15:01:11</span>
+    </span>
+    
+    
+        <span class="article-categories article-meta-item">
+            <i class="fas fa-folder"></i>&nbsp;
+            <ul>
                 
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2024/08/07/2024-08-07/"
-                        >洛阳行</a>
-                        <span class="article-date">08-07</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2024/08/02/2024-08-02/"
-                        >氨燃料改质的主要途径方法</a>
-                        <span class="article-date">08-02</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2024/07/26/2024-07-26/"
-                        >氨催化剂</a>
-                        <span class="article-date">07-26</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2024/07/25/2024-07-25/"
-                        >Shell脚本命令学习</a>
-                        <span class="article-date">07-25</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2024/07/24/2024-07-24/"
-                        >氨火焰传热特性</a>
-                        <span class="article-date">07-24</span>
+                    <li>
+                        <a href="/categories/Research/">Research</a>&nbsp;
                     </li>
                 
             </ul>
-        </section>
+        </span>
     
-        <section class="archive-item">
-            <div class="archive-item-header">
-                <span class="archive-year">2023</span>
-                <span class="archive-year-post-count">[5]</span>
-            </div>
-            <ul class="article-list">
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
                 
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2023/12/15/vasp-shell-script/"
-                        >shell script</a>
-                        <span class="article-date">12-15</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2023/03/09/feng-tian-qing-ran-liao-dian-chi-qi-che-fa-zhan-de-li-shi/"
-                        >丰田氢燃料电池汽车发展的历史</a>
-                        <span class="article-date">03-09</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2023/03/02/get-unitcell/"
-                        >get unitcell in molecular simulation from cif file</a>
-                        <span class="article-date">03-02</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2023/02/27/cof-databse/"
-                        >COF-databse</a>
-                        <span class="article-date">02-27</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2023/02/23/first-blog/"
-                        >Strat</a>
-                        <span class="article-date">02-23</span>
+                    <li>
+                        <a href="/tags/shell/">shell</a>&nbsp;
                     </li>
                 
             </ul>
-        </section>
+        </span>
+    
+
+    
+    
+    
     
 </div>
 
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content keep-markdown-body">
+                
+
+                <ul>
+<li><h1 id="Shell脚本命令学习"><a href="#Shell脚本命令学习" class="headerlink" title="Shell脚本命令学习"></a>Shell脚本命令学习</h1></li>
+<li><pre><code>if [ ! -d "$TARGET_DIR" ]; then`：检查 `TARGET_DIR` 目录是否存在。
+`-d "$TARGET_DIR"`：测试条件，检查 `$TARGET_DIR` 是否存在且是一个目录。
+`!`：逻辑非运算符，如果 `-d "$TARGET_DIR"` 为真（目录存在），则 `! -d "$TARGET_DIR"` 为假；反之亦然。
+- `echo "目标目录不存在: $TARGET_DIR"`：如果目录不存在，打印一条错误信息。
+- `exit 1`：如果目录不存在，脚本以状态码 `1` 退出，表示错误。
+</code></pre>
+</li>
+<li></li>
+<li><strong><code> for dir in "$TARGET_DIR"/*/; do</code></strong></li>
+<li><code>for dir in "$TARGET_DIR"/*/; do</code>: 这是一个 <code>for</code> 循环，遍历 <code>$TARGET_DIR</code> 目录下的所有子文件夹。</li>
+<li><code>"$TARGET_DIR"/*/</code>: 这是一个路径模式，匹配 <code>$TARGET_DIR</code> 目录下的所有子文件夹。<code>*</code> 是通配符，匹配所有文件和目录；<code>/</code> 表示仅匹配目录。</li>
+<li><h2 id="shell中if语句特殊参数"><a href="#shell中if语句特殊参数" class="headerlink" title="shell中if语句特殊参数"></a>shell中if语句特殊参数</h2></li>
+<li><pre><code>－d：判断制定的是否为目录
+－z：判断制定的变量是否存在值
+－f：判断制定的是否为文件
+－L: 判断制定的是否为符号链接
+－r：判断制定的是否可读
+－s: 判断存在的对象长度是否为0
+－w: 判断制定的是否可写
+－x：判断存在的对象是否可以执行
+！： 测试条件的否定符号
+</code></pre>
+</li>
+<li><h2 id="条件表达式"><a href="#条件表达式" class="headerlink" title="条件表达式"></a>条件表达式</h2></li>
+<li><h3 id="文件表达式"><a href="#文件表达式" class="headerlink" title="文件表达式"></a>文件表达式</h3></li>
+<li><pre><code>if [ -f&nbsp; file ]&nbsp;&nbsp;&nbsp; 如果文件存在
+if [ -d ...&nbsp;&nbsp; ]&nbsp;&nbsp;&nbsp; 如果目录存在
+if [ -s file&nbsp; ]&nbsp;&nbsp;&nbsp; 如果文件存在且非空
+if [ -r file&nbsp; ]&nbsp;&nbsp;&nbsp; 如果文件存在且可读
+if [ -w file&nbsp; ]&nbsp;&nbsp;&nbsp; 如果文件存在且可写
+if [ -x file&nbsp; ]&nbsp;&nbsp;&nbsp; 如果文件存在且可执行
+</code></pre>
+</li>
+<li><h3 id="整数变量表达式"><a href="#整数变量表达式" class="headerlink" title="整数变量表达式"></a>整数变量表达式</h3></li>
+<li><pre><code>if [ int1 -eq int2 ]&nbsp;&nbsp;&nbsp;    如果int1等于int2&nbsp; &nbsp;
+if [ int1 -ne int2 ]&nbsp;&nbsp;&nbsp;    如果不等于&nbsp;&nbsp; &nbsp;
+if [ int1 -ge int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&gt;=
+if [ int1 -gt int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&gt;
+if [ int1 -le int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&lt;=
+if [ int1 -lt int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&lt;
+</code></pre>
+</li>
+<li></li>
+<li></li>
+</ul>
+
+            </div>
+
+            
+                <div class="post-copyright-info">
+                    
+<div class="article-copyright-info-container">
+    <ul class="copyright-info-content">
+        <li class="post-title">
+            <span class="type">Post title</span>: <span class="content">Shell脚本命令学习</span>
+        </li>
+        <li class="post-author">
+            <span class="type">Post author</span>: <span class="content">Z.Gao</span>
+        </li>
+        <li class="post-time">
+            <span class="type">Create time</span>: <span class="content">2024-07-25 13:25:30</span>
+        </li>
+        <li class="post-link">
+            <span class="type">Post link</span>: <span class="content">2024/07/25/2024-07-25/</span>
+        </li>
+        <li class="post-license">
+            <span class="type">Copyright notice</span>: <span class="content">All articles in this blog are licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> unless stating additionally.</span>
+        </li>
+    </ul>
+    <div class="copy-copyright-info flex-center tooltip" data-content="Copy copyright info" data-offset-y="-2px">
+        <i class="fa-solid fa-copy"></i>
     </div>
 </div>
+
+                </div>
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/tags/shell/">#shell</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                               rel="prev"
+                               href="/2024/07/26/2024-07-26/"
+                            >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                                <span class="title flex-center">
+                                <span class="post-nav-title-item">氨催化剂</span>
+                                <span class="post-nav-item">Prev posts</span>
+                            </span>
+                            </a>
+                        </div>
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/2024/07/24/2024-07-24/"
+                            >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">氨火焰传热特性</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                                <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Shell%E8%84%9A%E6%9C%AC%E5%91%BD%E4%BB%A4%E5%AD%A6%E4%B9%A0"><span class="nav-text">Shell脚本命令学习</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#shell%E4%B8%ADif%E8%AF%AD%E5%8F%A5%E7%89%B9%E6%AE%8A%E5%8F%82%E6%95%B0"><span class="nav-text">shell中if语句特殊参数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9D%A1%E4%BB%B6%E8%A1%A8%E8%BE%BE%E5%BC%8F"><span class="nav-text">条件表达式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E8%A1%A8%E8%BE%BE%E5%BC%8F"><span class="nav-text">文件表达式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B4%E6%95%B0%E5%8F%98%E9%87%8F%E8%A1%A8%E8%BE%BE%E5%BC%8F"><span class="nav-text">整数变量表达式</span></a></li></ol></li></ol></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
 
                 
             </div>
@@ -345,6 +463,23 @@
         </div>
     </div>
 
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
     
 
     <div class="right-bottom-side-tools">
@@ -468,6 +603,20 @@
 
 
 <div class="post-scripts">
+    
+        
+<script src="/js/post-helper.js"></script>
+
+        
+            
+<script src="/js/libs/anime.min.js"></script>
+
+        
+        
+            
+<script src="/js/toc.js"></script>
+
+        
     
 </div>
 
