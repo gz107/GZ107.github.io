@@ -173,14 +173,14 @@
 
   
   <url>
-    <loc>http://example.com/tags/shell/</loc>
+    <loc>http://example.com/tags/%E6%B0%A8/</loc>
     <lastmod>2024-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E6%B0%A8/</loc>
+    <loc>http://example.com/tags/shell/</loc>
     <lastmod>2024-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -201,14 +201,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/VASP-shell/</loc>
+    <loc>http://example.com/tags/COF-Database/</loc>
     <lastmod>2024-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/COF-Database/</loc>
+    <loc>http://example.com/tags/VASP-shell/</loc>
     <lastmod>2024-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
