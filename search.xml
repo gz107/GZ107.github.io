@@ -184,6 +184,37 @@ if [ int1 -lt int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&lt;
       </tags>
   </entry>
   <entry>
+    <title>氨燃料改质的主要途径方法</title>
+    <url>/2024/08/02/2024-08-02/</url>
+    <content><![CDATA[<ul>
+<li><h1 id="氨燃料改质的主要途径方法"><a href="#氨燃料改质的主要途径方法" class="headerlink" title="氨燃料改质的主要途径方法"></a>氨燃料改质的主要途径方法</h1></li>
+<li></li>
+<li>氨燃料改质主要涉及将氨分解或转化为更易于利用的氢气或其他燃料形式，以便在燃料电池或内燃机中更高效地使用。以下是几种主要的氨燃料改质途径方法：</li>
+<li><h3 id="1-热分解法"><a href="#1-热分解法" class="headerlink" title="1. 热分解法"></a>1. 热分解法</h3>热分解法利用高温条件下氨分解为氮气和氢气。反应如下：</li>
+</ul>
+<p>$$2NH_3 \rightarrow 3H_2+N_2$$- 此方法需要较高的温度（通常在500°C以上），并且需要合适的催化剂（如镍基催化剂）来提高分解效率。</p>
+<ul>
+<li><h3 id="2-催化分解法"><a href="#2-催化分解法" class="headerlink" title="2. 催化分解法"></a>2. 催化分解法</h3><p>催化分解法是在较低温度（300-500°C）下，使用催化剂（如钌、铂、镍等）来促进氨分解为氢气和氮气。催化剂能显著降低反应所需的能量，提高反应速率。  </p>
+</li>
+<li><h3 id="3-选择性氧化法"><a href="#3-选择性氧化法" class="headerlink" title="3. 选择性氧化法"></a>3. 选择性氧化法</h3><p>选择性氧化法通过控制氧气量，将氨部分氧化生成氮气和水，同时释放出氢气。反应如下：<br>4NH3+3O2→2N2+6H2O4 text{NH}_3 + 3 text{O}_2 → 2 text{N}_2 + 6 text{H}_2O4NH3​+3O2​→2N2​+6H2​O<br>选择性氧化需要精确控制氧气和氨的比例，避免完全氧化生成氮氧化物（NOx）。  </p>
+</li>
+<li><h3 id="4-水蒸气重整法"><a href="#4-水蒸气重整法" class="headerlink" title="4. 水蒸气重整法"></a>4. 水蒸气重整法</h3><p>水蒸气重整法是将氨与水蒸气在高温（通常在700-900°C）和催化剂（如镍基催化剂）存在下反应生成氢气和氮气。反应如下：<br>NH3+H2O→3H2+12N2text{NH}_3 + text{H}_2O → 3 text{H}_2 + frac{1}{2} text{N}_2NH3​+H2​O→3H2​+21​N2​<br>这种方法与传统的天然气重整类似，但需要较高的反应温度。  </p>
+</li>
+<li><h3 id="5-等离子体法"><a href="#5-等离子体法" class="headerlink" title="5. 等离子体法"></a>5. 等离子体法</h3><p>等离子体法利用高能等离子体环境促进氨分解为氢气和氮气。此方法在较低温度下即可进行，但需要复杂的设备和较高的能耗。  </p>
+</li>
+<li><h3 id="6-电化学分解法"><a href="#6-电化学分解法" class="headerlink" title="6. 电化学分解法"></a>6. 电化学分解法</h3><p>电化学分解法利用电能在电解池中将氨分解为氢气和氮气。此方法相对节能，但需要高效的电解质和电极材料。  </p>
+<p>这些方法各有优缺点，选择合适的方法取决于具体的应用场景、成本、效率及环保要求等因素。</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Research</category>
+      </categories>
+      <tags>
+        <tag>NH3; Catalyst</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>洛阳行</title>
     <url>/2024/08/07/2024-08-07/</url>
     <content><![CDATA[<ul>
@@ -225,37 +256,6 @@ if [ int1 -lt int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&lt;
 ]]></content>
       <tags>
         <tag>Travel; Luo Yang;</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>氨燃料改质的主要途径方法</title>
-    <url>/2024/08/02/2024-08-02/</url>
-    <content><![CDATA[<ul>
-<li><h1 id="氨燃料改质的主要途径方法"><a href="#氨燃料改质的主要途径方法" class="headerlink" title="氨燃料改质的主要途径方法"></a>氨燃料改质的主要途径方法</h1></li>
-<li></li>
-<li>氨燃料改质主要涉及将氨分解或转化为更易于利用的氢气或其他燃料形式，以便在燃料电池或内燃机中更高效地使用。以下是几种主要的氨燃料改质途径方法：</li>
-<li><h3 id="1-热分解法"><a href="#1-热分解法" class="headerlink" title="1. 热分解法"></a>1. 热分解法</h3>热分解法利用高温条件下氨分解为氮气和氢气。反应如下：</li>
-</ul>
-<p>$$2NH_3 \rightarrow 3H_2+N_2$$- 此方法需要较高的温度（通常在500°C以上），并且需要合适的催化剂（如镍基催化剂）来提高分解效率。</p>
-<ul>
-<li><h3 id="2-催化分解法"><a href="#2-催化分解法" class="headerlink" title="2. 催化分解法"></a>2. 催化分解法</h3><p>催化分解法是在较低温度（300-500°C）下，使用催化剂（如钌、铂、镍等）来促进氨分解为氢气和氮气。催化剂能显著降低反应所需的能量，提高反应速率。  </p>
-</li>
-<li><h3 id="3-选择性氧化法"><a href="#3-选择性氧化法" class="headerlink" title="3. 选择性氧化法"></a>3. 选择性氧化法</h3><p>选择性氧化法通过控制氧气量，将氨部分氧化生成氮气和水，同时释放出氢气。反应如下：<br>4NH3+3O2→2N2+6H2O4 text{NH}_3 + 3 text{O}_2 → 2 text{N}_2 + 6 text{H}_2O4NH3​+3O2​→2N2​+6H2​O<br>选择性氧化需要精确控制氧气和氨的比例，避免完全氧化生成氮氧化物（NOx）。  </p>
-</li>
-<li><h3 id="4-水蒸气重整法"><a href="#4-水蒸气重整法" class="headerlink" title="4. 水蒸气重整法"></a>4. 水蒸气重整法</h3><p>水蒸气重整法是将氨与水蒸气在高温（通常在700-900°C）和催化剂（如镍基催化剂）存在下反应生成氢气和氮气。反应如下：<br>NH3+H2O→3H2+12N2text{NH}_3 + text{H}_2O → 3 text{H}_2 + frac{1}{2} text{N}_2NH3​+H2​O→3H2​+21​N2​<br>这种方法与传统的天然气重整类似，但需要较高的反应温度。  </p>
-</li>
-<li><h3 id="5-等离子体法"><a href="#5-等离子体法" class="headerlink" title="5. 等离子体法"></a>5. 等离子体法</h3><p>等离子体法利用高能等离子体环境促进氨分解为氢气和氮气。此方法在较低温度下即可进行，但需要复杂的设备和较高的能耗。  </p>
-</li>
-<li><h3 id="6-电化学分解法"><a href="#6-电化学分解法" class="headerlink" title="6. 电化学分解法"></a>6. 电化学分解法</h3><p>电化学分解法利用电能在电解池中将氨分解为氢气和氮气。此方法相对节能，但需要高效的电解质和电极材料。  </p>
-<p>这些方法各有优缺点，选择合适的方法取决于具体的应用场景、成本、效率及环保要求等因素。</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Research</category>
-      </categories>
-      <tags>
-        <tag>NH3; Catalyst</tag>
       </tags>
   </entry>
   <entry>
@@ -313,6 +313,11 @@ if [ int1 -lt int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&lt;
       </tags>
   </entry>
   <entry>
+    <title>any title</title>
+    <url>/2024/12/24/any-title/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>Strat</title>
     <url>/2023/02/23/first-blog/</url>
     <content><![CDATA[<p>It’s my first Blog, so let’s start a whole new journey!科学网博客的注册实在让我无力吐槽，经过一晚上的学习，终于打开了一个全新的世界，github+Hexo自主搭建blog的感觉很nice. </p>
@@ -320,11 +325,6 @@ if [ int1 -lt int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&lt;
       <tags>
         <tag>essay；</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>any title</title>
-    <url>/2024/12/24/any-title/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>get unitcell in molecular simulation from cif file</title>
