@@ -85,122 +85,6 @@
       </tags>
   </entry>
   <entry>
-    <title>氨催化剂</title>
-    <url>/2024/07/26/2024-07-26/</url>
-    <content><![CDATA[<ul>
-<li><h1 id="氨催化剂"><a href="#氨催化剂" class="headerlink" title="氨催化剂"></a>氨催化剂</h1></li>
-<li><p><img lazyload="" alt="image" data-src="https://ars.els-cdn.com/content/image/1-s2.0-S2352554124000676-gr1_lrg.jpg"></p>
-</li>
-<li><p><strong>Reference: Sustainable Chemistry and Pharmacy,2024,38,101492;<a class="link" href="https://doi.org/10.1016/j.scp.2024.101492">https://doi.org/10.1016/j.scp.2024.101492<i class="fas fa-external-link-alt"></i></a></strong></p>
-</li>
-<li><p><img lazyload="" alt="image" data-src="/../assets/image_1721955962003_0.png"></p>
-</li>
-<li><p><img lazyload="" alt="image" data-src="/../assets/image_1721955893794_0.png"></p>
-</li>
-<li><p>图 2.用于燃料电池的 NH3&nbsp;分解或裂解成 H2&nbsp;的商用技术示意图。值得注意的是，NH3&nbsp;燃烧产生的热量促进了 NH3&nbsp;的分解</p>
-</li>
-<li><p><strong>Reference: Chem. Lett., 2021,50(4),752–759, <a class="link" href="https://doi.org/10.1246/cl.200843">https://doi.org/10.1246/cl.200843<i class="fas fa-external-link-alt"></i></a></strong></p>
-</li>
-<li><p><img lazyload="" alt="image" data-src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/chemlett/50/4/10.1246_cl.200843/4/cl-200843fig03cmyk.jpeg?Expires=1724980225&amp;Signature=IZvmxwk1to5sSDHPSd9TUmOr68GFpfREBot6-Wj2rn2cqOC~ew4Upru6vMwbG-sYcWXbyIbiVbmBc8t7PWoj0c6pmb2-SYmSsZG6BIpSWl3cT8qk8j1g2ifLCWvTFiE7D5ox5pXCI65yH6D4lD6diTuN3b8xP~jhpjpg04QBEMLRkb~CBCk-4eLn4~ms4lXPSLwltNCCT3utIv9Jt9sYKDwGYn0yzi37HlAq9AbMDj1TvRruRcpWpDdc5DsMWr1jeUt0QT2hh6clK~CYNIEcQt1dVB3FcVTvUkZCpMnz1qIrBJ8Oa-y6BO4nRxpq~Wy4GHJBe1KA1o3JoJlS5SALiQ__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"></p>
-</li>
-<li><p>图3.NH3在CuOx/3A2S和局部CuOx/3A2S结构上催化燃烧的可能反应机理示意图。</p>
-</li>
-<li><p><strong>因为NH3在负载CuOx上的燃烧催化活性与CuOx的还原性和粒径密切相关；此外，在 NH_3&nbsp;转化率达到约 90% 后会产生 NO。随后，产生的NO被完整的NH_3（图<a class="link" href="javascript:;">3<i class="fas fa-external-link-alt"></i></a>，右侧）还原为N_2或者 N_2O 。初始反应分为两种，分别是热力学和动力学</strong></p>
-</li>
-<li><p><strong>热力学</strong></p>
-</li>
-</ul>
-<p>$$4NH_3 + 3O_2 \rightarrow 2N_2  +6H_2O $$- <strong>动力学</strong></p>
-<p>$$4NH_3 + 5O_2 \rightarrow 4NO  +6H_2O $$- <strong>产生的NO被还原为N_2或者N_2O的路径</strong></p>
-<p>$$4NH_3 + 4NO+O_2 \rightarrow 4N_2  +6H_2O $$-<br>$$4NH_3 + 4NO+3O_2 \rightarrow 4N_2O  +6H_2O $$- <strong>Reference: Chem. Lett., 2021,50(4),752–759, <a class="link" href="https://doi.org/10.1246/cl.200843">https://doi.org/10.1246/cl.200843<i class="fas fa-external-link-alt"></i></a></strong></p>
-<ul>
-<li><h2 id="能耗评估，可分为两个维度"><a href="#能耗评估，可分为两个维度" class="headerlink" title="能耗评估，可分为两个维度"></a>能耗评估，可分为两个维度</h2>1，材料本身<br>主要涉及到的是催化反应，此时衡量能耗，应着重考虑反应过程的熵变、焓变（热力学性质），反应速率、活化能（动力学性质），然后也可以将二者结合起来综合评估。  </li>
-<li>2，装置层次<br>主要涉及到系统下各个单元之间的能耗，大概涉及到以下单元“反应再生单元、能量回收系统、分馏单元和吸收稳定单元”。利用热力学的基本分析方法焓分析和㶲分析，分别从能量的“数量”和“质量”两个角度进行分析。计算其中涉及到能耗、电耗、冷热耗、压缩机能耗等等。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Research</category>
-      </categories>
-      <tags>
-        <tag>NH3; Catalyst</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>氨燃料改质的主要途径方法</title>
-    <url>/2024/08/02/2024-08-02/</url>
-    <content><![CDATA[<ul>
-<li><h1 id="氨燃料改质的主要途径方法"><a href="#氨燃料改质的主要途径方法" class="headerlink" title="氨燃料改质的主要途径方法"></a>氨燃料改质的主要途径方法</h1></li>
-<li></li>
-<li>氨燃料改质主要涉及将氨分解或转化为更易于利用的氢气或其他燃料形式，以便在燃料电池或内燃机中更高效地使用。以下是几种主要的氨燃料改质途径方法：</li>
-<li><h3 id="1-热分解法"><a href="#1-热分解法" class="headerlink" title="1. 热分解法"></a>1. 热分解法</h3>热分解法利用高温条件下氨分解为氮气和氢气。反应如下：</li>
-</ul>
-<p>$$2NH_3 \rightarrow 3H_2+N_2$$- 此方法需要较高的温度（通常在500°C以上），并且需要合适的催化剂（如镍基催化剂）来提高分解效率。</p>
-<ul>
-<li><h3 id="2-催化分解法"><a href="#2-催化分解法" class="headerlink" title="2. 催化分解法"></a>2. 催化分解法</h3><p>催化分解法是在较低温度（300-500°C）下，使用催化剂（如钌、铂、镍等）来促进氨分解为氢气和氮气。催化剂能显著降低反应所需的能量，提高反应速率。  </p>
-</li>
-<li><h3 id="3-选择性氧化法"><a href="#3-选择性氧化法" class="headerlink" title="3. 选择性氧化法"></a>3. 选择性氧化法</h3><p>选择性氧化法通过控制氧气量，将氨部分氧化生成氮气和水，同时释放出氢气。反应如下：<br>4NH3+3O2→2N2+6H2O4 text{NH}_3 + 3 text{O}_2 → 2 text{N}_2 + 6 text{H}_2O4NH3​+3O2​→2N2​+6H2​O<br>选择性氧化需要精确控制氧气和氨的比例，避免完全氧化生成氮氧化物（NOx）。  </p>
-</li>
-<li><h3 id="4-水蒸气重整法"><a href="#4-水蒸气重整法" class="headerlink" title="4. 水蒸气重整法"></a>4. 水蒸气重整法</h3><p>水蒸气重整法是将氨与水蒸气在高温（通常在700-900°C）和催化剂（如镍基催化剂）存在下反应生成氢气和氮气。反应如下：<br>NH3+H2O→3H2+12N2text{NH}_3 + text{H}_2O → 3 text{H}_2 + frac{1}{2} text{N}_2NH3​+H2​O→3H2​+21​N2​<br>这种方法与传统的天然气重整类似，但需要较高的反应温度。  </p>
-</li>
-<li><h3 id="5-等离子体法"><a href="#5-等离子体法" class="headerlink" title="5. 等离子体法"></a>5. 等离子体法</h3><p>等离子体法利用高能等离子体环境促进氨分解为氢气和氮气。此方法在较低温度下即可进行，但需要复杂的设备和较高的能耗。  </p>
-</li>
-<li><h3 id="6-电化学分解法"><a href="#6-电化学分解法" class="headerlink" title="6. 电化学分解法"></a>6. 电化学分解法</h3><p>电化学分解法利用电能在电解池中将氨分解为氢气和氮气。此方法相对节能，但需要高效的电解质和电极材料。  </p>
-<p>这些方法各有优缺点，选择合适的方法取决于具体的应用场景、成本、效率及环保要求等因素。</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Research</category>
-      </categories>
-      <tags>
-        <tag>NH3; Catalyst</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>洛阳行</title>
-    <url>/2024/08/07/2024-08-07/</url>
-    <content><![CDATA[<ul>
-<li><h1 id="洛阳行"><a href="#洛阳行" class="headerlink" title="洛阳行"></a>洛阳行</h1></li>
-<li><h2 id="2024-08-08出发-07-35-西安北出发-→-08-58-洛阳龙门"><a href="#2024-08-08出发-07-35-西安北出发-→-08-58-洛阳龙门" class="headerlink" title="2024.08.08出发 07:35 西安北出发 → 08:58 洛阳龙门"></a>2024.08.08出发 07:35 西安北出发 → 08:58 洛阳龙门</h2></li>
-<li><h3 id="地图"><a href="#地图" class="headerlink" title="地图"></a>地图</h3></li>
-<li><img lazyload="" alt="image" data-src="/../assets/image_1723002109441_0.png"></li>
-<li><h3 id="门票"><a href="#门票" class="headerlink" title="门票"></a>门票</h3></li>
-<li><img lazyload="" alt="image" data-src="/../assets/image_1723002046989_0.png"></li>
-<li></li>
-<li><h3 id="第一站改为龙门石窟-洛阳博物馆"><a href="#第一站改为龙门石窟-洛阳博物馆" class="headerlink" title="第一站改为龙门石窟  ++ 洛阳博物馆"></a>第一站改为龙门石窟  ++ 洛阳博物馆</h3></li>
-<li><img lazyload="" alt="image" data-src="/../assets/image_1723002932680_0.png"></li>
-<li></li>
-<li><img lazyload="" alt="image" data-src="/../assets/image_1723002946167_0.png"></li>
-<li><h3 id="龙门石窟去掉"><a href="#龙门石窟去掉" class="headerlink" title="龙门石窟去掉"></a>龙门石窟去掉</h3></li>
-<li><img lazyload="" alt="image" data-src="/../assets/image_1723002957464_0.png"></li>
-<li></li>
-<li><strong>—————————————龙门石窟—————————————————</strong></li>
-<li>90元/人。最好打车到西北服务区,这边进不用坐10元/人的电瓶车西北服务区这边还有一个“无上龙门”的沉浸式裸眼3D体验馆。</li>
-<li><img lazyload="" alt="image" data-src="/../assets/4352ad4ecb32e2ac4ce99452e954f7a_1723001354871_0.jpg"></li>
-<li><strong>———————————————老君山—————————————————</strong></li>
-<li>门票+两程索道往返288，建议跟个一日纯玩团走，省心，不用担心车程，看夜景也有夜景团。索道建议坐两程的往返或者中灵往返加峰林上(下山比较容易)带好身份证和一些顶饿的吃的</li>
-<li><img lazyload="" alt="image" data-src="/../assets/601080417d42ce6d05754ffedd7bf94_1723001373188_0.jpg"></li>
-<li><strong>———————————————白马寺—————————————————</strong></li>
-<li>门票35元/人，不用预约，到门口买纸质票，景区分为三部分:白马寺、国际佛殿展览区和齐云塔寺，面积不大，游玩时间2.5h</li>
-<li><img lazyload="" alt="image" data-src="/../assets/121d84a1fe434ca8e4439213c437558_1723001326987_0.jpg"></li>
-<li><strong>———————————————洛邑古城———————————————</strong></li>
-<li>免费的哦！门口预约一下就行啦，节假日要提前预约，景区不大，游玩时间2h,最好是晚上6点多过来,既能看到白天的景色，也能看到夜晚的景色<br><strong>———————————————洛阳博物馆——————————————</strong>  </li>
-<li>免费哒！！需要在官方号<strong>提前预约</strong>的哈！！周一闭馆！！</li>
-<li><strong>————————————————丽景门————————————————</strong></li>
-<li>从城楼进入，一条长街，逛吃逛吃，走到头了就是老城十字街夜市了这个夜市的人超级多，看好自己的手机姐妹们。丽景门城楼门票45，包含城楼、兵器展和体验游戏，不上也罢<br><strong>———————————————天堂名堂景区————————————</strong>  </li>
-<li>门票109元/人，性价比不高，景区不大，天堂明堂里有小表演，夜景在景区门外拍也很好看，不来也行</li>
-<li><img lazyload="" alt="image" data-src="/../assets/966277459c10dcb6208234338cc895b_1723001256035_0.jpg"></li>
-<li></li>
-<li><img lazyload="" alt="image" data-src="/../assets/1f83911a9aab72b672bee50a2b8f34b_1723001277854_0.jpg"></li>
-<li><img lazyload="" alt="image" data-src="/../assets/7b9d0306a68ef43cd9456180af62a77_1723001302485_0.jpg"></li>
-<li></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>Travel; Luo Yang;</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Shell脚本命令学习</title>
     <url>/2024/07/25/2024-07-25/</url>
     <content><![CDATA[<ul>
@@ -259,25 +143,97 @@ if [ int1 -lt int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&lt;
       </tags>
   </entry>
   <entry>
+    <title>氨催化剂</title>
+    <url>/2024/07/26/2024-07-26/</url>
+    <content><![CDATA[<ul>
+<li><h1 id="氨催化剂"><a href="#氨催化剂" class="headerlink" title="氨催化剂"></a>氨催化剂</h1></li>
+<li><p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S2352554124000676-gr1_lrg.jpg"></p>
+</li>
+<li><p><strong>Reference: Sustainable Chemistry and Pharmacy,2024,38,101492;<a href="https://doi.org/10.1016/j.scp.2024.101492">https://doi.org/10.1016/j.scp.2024.101492</a></strong></p>
+</li>
+<li><p><img src="/../assets/image_1721955962003_0.png" alt="image.png"></p>
+</li>
+<li><p><img src="/../assets/image_1721955893794_0.png" alt="image.png"></p>
+</li>
+<li><p>图 2.用于燃料电池的 NH3&nbsp;分解或裂解成 H2&nbsp;的商用技术示意图。值得注意的是，NH3&nbsp;燃烧产生的热量促进了 NH3&nbsp;的分解</p>
+</li>
+<li><p><strong>Reference: Chem. Lett., 2021,50(4),752–759, <a href="https://doi.org/10.1246/cl.200843">https://doi.org/10.1246/cl.200843</a></strong></p>
+</li>
+<li><p><img src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/chemlett/50/4/10.1246_cl.200843/4/cl-200843fig03cmyk.jpeg?Expires=1724980225&amp;Signature=IZvmxwk1to5sSDHPSd9TUmOr68GFpfREBot6-Wj2rn2cqOC~ew4Upru6vMwbG-sYcWXbyIbiVbmBc8t7PWoj0c6pmb2-SYmSsZG6BIpSWl3cT8qk8j1g2ifLCWvTFiE7D5ox5pXCI65yH6D4lD6diTuN3b8xP~jhpjpg04QBEMLRkb~CBCk-4eLn4~ms4lXPSLwltNCCT3utIv9Jt9sYKDwGYn0yzi37HlAq9AbMDj1TvRruRcpWpDdc5DsMWr1jeUt0QT2hh6clK~CYNIEcQt1dVB3FcVTvUkZCpMnz1qIrBJ8Oa-y6BO4nRxpq~Wy4GHJBe1KA1o3JoJlS5SALiQ__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="cl-200843fig03cmyk.jpeg (1841×944)"></p>
+</li>
+<li><p>图3.NH3在CuOx/3A2S和局部CuOx/3A2S结构上催化燃烧的可能反应机理示意图。</p>
+</li>
+<li><p><strong>因为NH3在负载CuOx上的燃烧催化活性与CuOx的还原性和粒径密切相关；此外，在 NH_3&nbsp;转化率达到约 90% 后会产生 NO。随后，产生的NO被完整的NH_3（图<a href="javascript:;">3</a>，右侧）还原为N_2或者 N_2O 。初始反应分为两种，分别是热力学和动力学</strong></p>
+</li>
+<li><p><strong>热力学</strong></p>
+</li>
+</ul>
+<p>$$4NH_3 + 3O_2 \rightarrow 2N_2  +6H_2O $$- <strong>动力学</strong></p>
+<p>$$4NH_3 + 5O_2 \rightarrow 4NO  +6H_2O $$- <strong>产生的NO被还原为N_2或者N_2O的路径</strong></p>
+<p>$$4NH_3 + 4NO+O_2 \rightarrow 4N_2  +6H_2O $$-<br>$$4NH_3 + 4NO+3O_2 \rightarrow 4N_2O  +6H_2O $$- <strong>Reference: Chem. Lett., 2021,50(4),752–759, <a href="https://doi.org/10.1246/cl.200843">https://doi.org/10.1246/cl.200843</a></strong></p>
+<ul>
+<li><h2 id="能耗评估，可分为两个维度"><a href="#能耗评估，可分为两个维度" class="headerlink" title="能耗评估，可分为两个维度"></a>能耗评估，可分为两个维度</h2>1，材料本身<br>主要涉及到的是催化反应，此时衡量能耗，应着重考虑反应过程的熵变、焓变（热力学性质），反应速率、活化能（动力学性质），然后也可以将二者结合起来综合评估。  </li>
+<li>2，装置层次<br>主要涉及到系统下各个单元之间的能耗，大概涉及到以下单元“反应再生单元、能量回收系统、分馏单元和吸收稳定单元”。利用热力学的基本分析方法焓分析和㶲分析，分别从能量的“数量”和“质量”两个角度进行分析。计算其中涉及到能耗、电耗、冷热耗、压缩机能耗等等。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Research</category>
+      </categories>
+      <tags>
+        <tag>NH3; Catalyst</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>氨燃料改质的主要途径方法</title>
+    <url>/2024/08/02/2024-08-02/</url>
+    <content><![CDATA[<ul>
+<li><h1 id="氨燃料改质的主要途径方法"><a href="#氨燃料改质的主要途径方法" class="headerlink" title="氨燃料改质的主要途径方法"></a>氨燃料改质的主要途径方法</h1></li>
+<li></li>
+<li>氨燃料改质主要涉及将氨分解或转化为更易于利用的氢气或其他燃料形式，以便在燃料电池或内燃机中更高效地使用。以下是几种主要的氨燃料改质途径方法：</li>
+<li><h3 id="1-热分解法"><a href="#1-热分解法" class="headerlink" title="1. 热分解法"></a>1. 热分解法</h3>热分解法利用高温条件下氨分解为氮气和氢气。反应如下：</li>
+</ul>
+<p>$$2NH_3 \rightarrow 3H_2+N_2$$- 此方法需要较高的温度（通常在500°C以上），并且需要合适的催化剂（如镍基催化剂）来提高分解效率。</p>
+<ul>
+<li><h3 id="2-催化分解法"><a href="#2-催化分解法" class="headerlink" title="2. 催化分解法"></a>2. 催化分解法</h3><p>催化分解法是在较低温度（300-500°C）下，使用催化剂（如钌、铂、镍等）来促进氨分解为氢气和氮气。催化剂能显著降低反应所需的能量，提高反应速率。  </p>
+</li>
+<li><h3 id="3-选择性氧化法"><a href="#3-选择性氧化法" class="headerlink" title="3. 选择性氧化法"></a>3. 选择性氧化法</h3><p>选择性氧化法通过控制氧气量，将氨部分氧化生成氮气和水，同时释放出氢气。反应如下：<br>4NH3+3O2→2N2+6H2O4 text{NH}_3 + 3 text{O}_2 → 2 text{N}_2 + 6 text{H}_2O4NH3​+3O2​→2N2​+6H2​O<br>选择性氧化需要精确控制氧气和氨的比例，避免完全氧化生成氮氧化物（NOx）。  </p>
+</li>
+<li><h3 id="4-水蒸气重整法"><a href="#4-水蒸气重整法" class="headerlink" title="4. 水蒸气重整法"></a>4. 水蒸气重整法</h3><p>水蒸气重整法是将氨与水蒸气在高温（通常在700-900°C）和催化剂（如镍基催化剂）存在下反应生成氢气和氮气。反应如下：<br>NH3+H2O→3H2+12N2text{NH}_3 + text{H}_2O → 3 text{H}_2 + frac{1}{2} text{N}_2NH3​+H2​O→3H2​+21​N2​<br>这种方法与传统的天然气重整类似，但需要较高的反应温度。  </p>
+</li>
+<li><h3 id="5-等离子体法"><a href="#5-等离子体法" class="headerlink" title="5. 等离子体法"></a>5. 等离子体法</h3><p>等离子体法利用高能等离子体环境促进氨分解为氢气和氮气。此方法在较低温度下即可进行，但需要复杂的设备和较高的能耗。  </p>
+</li>
+<li><h3 id="6-电化学分解法"><a href="#6-电化学分解法" class="headerlink" title="6. 电化学分解法"></a>6. 电化学分解法</h3><p>电化学分解法利用电能在电解池中将氨分解为氢气和氮气。此方法相对节能，但需要高效的电解质和电极材料。  </p>
+<p>这些方法各有优缺点，选择合适的方法取决于具体的应用场景、成本、效率及环保要求等因素。</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Research</category>
+      </categories>
+      <tags>
+        <tag>NH3; Catalyst</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>COF-databse</title>
     <url>/2023/02/27/cof-databse/</url>
     <content><![CDATA[<p>目前COF的研究非常火热，参考MOF数据库的成功建立，COF数据库近几年也有比较完善的建立。当前COF数据库主要分为实验合成和计算合成，以下分别总结了目前具有代表性的COF数据库：</p>
 <hr>
-<h1 id="COF-Database"><a href="#COF-Database" class="headerlink" title="COF Database:"></a>COF Database:</h1><h2 id="1-hypoCOFs-数据库目前已更新到第三版本，V3版本包括69840个计算合成的COF结构"><a href="#1-hypoCOFs-数据库目前已更新到第三版本，V3版本包括69840个计算合成的COF结构" class="headerlink" title="[1] hypoCOFs 数据库目前已更新到第三版本，V3版本包括69840个计算合成的COF结构"></a>[1] hypoCOFs 数据库目前已更新到第三版本，V3版本包括69840个计算合成的COF结构</h2><p>网址链接：<a class="link" href="https://archive.materialscloud.org/record/2018.0003/v3">https://archive.materialscloud.org/record/2018.0003/v3<i class="fas fa-external-link-alt"></i></a>&nbsp;</p>
+<h1 id="COF-Database"><a href="#COF-Database" class="headerlink" title="COF Database:"></a>COF Database:</h1><h2 id="1-hypoCOFs-数据库目前已更新到第三版本，V3版本包括69840个计算合成的COF结构"><a href="#1-hypoCOFs-数据库目前已更新到第三版本，V3版本包括69840个计算合成的COF结构" class="headerlink" title="[1] hypoCOFs 数据库目前已更新到第三版本，V3版本包括69840个计算合成的COF结构"></a>[1] hypoCOFs 数据库目前已更新到第三版本，V3版本包括69840个计算合成的COF结构</h2><p>网址链接：<a href="https://archive.materialscloud.org/record/2018.0003/v3">https://archive.materialscloud.org/record/2018.0003/v3</a>&nbsp;</p>
 <p>Reference：</p>
 <p>D. Ongari, A.V. Yakutovich, L. Talirz, B. Smit.Building a consistent and reproducible database for adsorption evaluation in covalent-organic frameworks</p>
 <p>Mater. Cloud Arch., 100 (2021), p. 2021</p>
 <p>R. Mercado, R.-S. Fu, A.V. Yakutovich, L. Talirz, M. Haranczyk, B. Smit .In silico design of 2D and 3D covalent organic frameworks for methane storage applications</p>
 <p>Mater. Cloud Arch., 0003/v3 (2018), p. 2018</p>
-<h2 id="2-北化工团队基于材料基因计算合成的COF数据库，GCOFs-database包括471-990结构，其中-包括166-684-2D-COFs-和-305-306-3D-COFs"><a href="#2-北化工团队基于材料基因计算合成的COF数据库，GCOFs-database包括471-990结构，其中-包括166-684-2D-COFs-和-305-306-3D-COFs" class="headerlink" title="[2]北化工团队基于材料基因计算合成的COF数据库，GCOFs database包括471,990结构，其中 包括166,684 2D-COFs 和 305,306 3D-COFs ."></a>[2]北化工团队基于材料基因计算合成的COF数据库，GCOFs database包括471,990结构，其中 包括166,684 2D-COFs 和 305,306 3D-COFs .</h2><p>网址链接：<a class="link" href="https://figshare.com/s/c7e3b7610a71b9d64210">https://figshare.com/s/c7e3b7610a71b9d64210<i class="fas fa-external-link-alt"></i></a></p>
+<h2 id="2-北化工团队基于材料基因计算合成的COF数据库，GCOFs-database包括471-990结构，其中-包括166-684-2D-COFs-和-305-306-3D-COFs"><a href="#2-北化工团队基于材料基因计算合成的COF数据库，GCOFs-database包括471-990结构，其中-包括166-684-2D-COFs-和-305-306-3D-COFs" class="headerlink" title="[2]北化工团队基于材料基因计算合成的COF数据库，GCOFs database包括471,990结构，其中 包括166,684 2D-COFs 和 305,306 3D-COFs ."></a>[2]北化工团队基于材料基因计算合成的COF数据库，GCOFs database包括471,990结构，其中 包括166,684 2D-COFs 和 305,306 3D-COFs .</h2><p>网址链接：<a href="https://figshare.com/s/c7e3b7610a71b9d64210">https://figshare.com/s/c7e3b7610a71b9d64210</a></p>
 <p>Reference：</p>
-<p>Lan, Y., Han, X., Tong, M.&nbsp;et al.&nbsp;Materials genomics methods for high-throughput&nbsp;construction of COFs and targeted synthesis.&nbsp;Nat Commun&nbsp;9, 5274 (2018). <a class="link" href="https://doi.org/10.1038/s41467-018-07720-x">https://doi.org/10.1038/s41467-018-07720-x<i class="fas fa-external-link-alt"></i></a></p>
+<p>Lan, Y., Han, X., Tong, M.&nbsp;et al.&nbsp;Materials genomics methods for high-throughput&nbsp;construction of COFs and targeted synthesis.&nbsp;Nat Commun&nbsp;9, 5274 (2018). <a href="https://doi.org/10.1038/s41467-018-07720-x">https://doi.org/10.1038/s41467-018-07720-x</a></p>
 <hr>
-<h1 id="实验合成"><a href="#实验合成" class="headerlink" title="实验合成"></a>实验合成</h1><h2 id="1-CoRe-COFs数据库目前更新到第六版本，V6版本包括613个COF结构，"><a href="#1-CoRe-COFs数据库目前更新到第六版本，V6版本包括613个COF结构，" class="headerlink" title="[1] CoRe-COFs数据库目前更新到第六版本，V6版本包括613个COF结构，"></a>[1] CoRe-COFs数据库目前更新到第六版本，V6版本包括613个COF结构，</h2><p>More info: <a class="link" href="https://github.com/core-cof/CoRE-COF-Database">CoRe-COFs<i class="fas fa-external-link-alt"></i></a></p>
+<h1 id="实验合成"><a href="#实验合成" class="headerlink" title="实验合成"></a>实验合成</h1><h2 id="1-CoRe-COFs数据库目前更新到第六版本，V6版本包括613个COF结构，"><a href="#1-CoRe-COFs数据库目前更新到第六版本，V6版本包括613个COF结构，" class="headerlink" title="[1] CoRe-COFs数据库目前更新到第六版本，V6版本包括613个COF结构，"></a>[1] CoRe-COFs数据库目前更新到第六版本，V6版本包括613个COF结构，</h2><p>More info: <a href="https://github.com/core-cof/CoRE-COF-Database">CoRe-COFs</a></p>
 <p>Reference：</p>
 <p>Minman Tong, Youshi Lan, Qingyuan Yang, and Chongli Zhong, Exploring the structure-property relationships of covalent organic frameworks for noble gas separations.&nbsp;Chem. Eng. Sci.&nbsp;2017, 168, 456-464.</p>
 <h2 id="2-CURATED-COFs数据库目前已更新到第九版本-June-2021-，V9版本包括648个COF结构"><a href="#2-CURATED-COFs数据库目前已更新到第九版本-June-2021-，V9版本包括648个COF结构" class="headerlink" title="[2]CURATED COFs数据库目前已更新到第九版本(June 2021)，V9版本包括648个COF结构."></a>[2]CURATED COFs数据库目前已更新到第九版本(June 2021)，V9版本包括648个COF结构.</h2><p>其中CURATED&nbsp;指的是：Clean, Uniform, Refined with Automatic Tracking from Experimental Database”&nbsp;</p>
-<p>网址链接：<a class="link" href="https://www.materialscloud.org/discover/curated-cofs#mcloudHeader">https://www.materialscloud.org/discover/curated-cofs#mcloudHeader<i class="fas fa-external-link-alt"></i></a><br>More info: <a class="link" href="https://github.com/danieleongari/CURATED-COFs">CURATED-COFs<i class="fas fa-external-link-alt"></i></a><br>Reference：</p>
+<p>网址链接：<a href="https://www.materialscloud.org/discover/curated-cofs#mcloudHeader">https://www.materialscloud.org/discover/curated-cofs#mcloudHeader</a><br>More info: <a href="https://github.com/danieleongari/CURATED-COFs">CURATED-COFs</a><br>Reference：</p>
 <p>Daniele Ongari, Aliaksandr V. Yakutovich, Leopold Talirz, Berend Smit,&nbsp;Building a consistent and reproducible database for adsorption evaluation in Covalent-Organic Frameworks, Materials Cloud Archive&nbsp;2021.100&nbsp;(2021), doi:&nbsp;10.24435/materialscloud:z6-jn. </p>
 ]]></content>
       <categories>
@@ -285,6 +241,64 @@ if [ int1 -lt int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&lt;
       </categories>
       <tags>
         <tag>COF;Database;</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>洛阳行</title>
+    <url>/2024/08/07/2024-08-07/</url>
+    <content><![CDATA[<ul>
+<li><h1 id="洛阳行"><a href="#洛阳行" class="headerlink" title="洛阳行"></a>洛阳行</h1></li>
+<li><h2 id="2024-08-08出发-07-35-西安北出发-→-08-58-洛阳龙门"><a href="#2024-08-08出发-07-35-西安北出发-→-08-58-洛阳龙门" class="headerlink" title="2024.08.08出发 07:35 西安北出发 → 08:58 洛阳龙门"></a>2024.08.08出发 07:35 西安北出发 → 08:58 洛阳龙门</h2></li>
+<li><h3 id="地图"><a href="#地图" class="headerlink" title="地图"></a>地图</h3></li>
+<li><img src="/../assets/image_1723002109441_0.png" alt="image.png"></li>
+<li><h3 id="门票"><a href="#门票" class="headerlink" title="门票"></a>门票</h3></li>
+<li><img src="/../assets/image_1723002046989_0.png" alt="image.png"></li>
+<li></li>
+<li><h3 id="第一站改为龙门石窟-洛阳博物馆"><a href="#第一站改为龙门石窟-洛阳博物馆" class="headerlink" title="第一站改为龙门石窟  ++ 洛阳博物馆"></a>第一站改为龙门石窟  ++ 洛阳博物馆</h3></li>
+<li><img src="/../assets/image_1723002932680_0.png" alt="image.png"></li>
+<li></li>
+<li><img src="/../assets/image_1723002946167_0.png" alt="image.png"></li>
+<li><h3 id="龙门石窟去掉"><a href="#龙门石窟去掉" class="headerlink" title="龙门石窟去掉"></a>龙门石窟去掉</h3></li>
+<li><img src="/../assets/image_1723002957464_0.png" alt="image.png"></li>
+<li></li>
+<li><strong>—————————————龙门石窟—————————————————</strong></li>
+<li>90元/人。最好打车到西北服务区,这边进不用坐10元/人的电瓶车西北服务区这边还有一个“无上龙门”的沉浸式裸眼3D体验馆。</li>
+<li><img src="/../assets/4352ad4ecb32e2ac4ce99452e954f7a_1723001354871_0.jpg" alt="4352ad4ecb32e2ac4ce99452e954f7a.jpg"></li>
+<li><strong>———————————————老君山—————————————————</strong></li>
+<li>门票+两程索道往返288，建议跟个一日纯玩团走，省心，不用担心车程，看夜景也有夜景团。索道建议坐两程的往返或者中灵往返加峰林上(下山比较容易)带好身份证和一些顶饿的吃的</li>
+<li><img src="/../assets/601080417d42ce6d05754ffedd7bf94_1723001373188_0.jpg" alt="601080417d42ce6d05754ffedd7bf94.jpg"></li>
+<li><strong>———————————————白马寺—————————————————</strong></li>
+<li>门票35元/人，不用预约，到门口买纸质票，景区分为三部分:白马寺、国际佛殿展览区和齐云塔寺，面积不大，游玩时间2.5h</li>
+<li><img src="/../assets/121d84a1fe434ca8e4439213c437558_1723001326987_0.jpg" alt="121d84a1fe434ca8e4439213c437558.jpg"></li>
+<li><strong>———————————————洛邑古城———————————————</strong></li>
+<li>免费的哦！门口预约一下就行啦，节假日要提前预约，景区不大，游玩时间2h,最好是晚上6点多过来,既能看到白天的景色，也能看到夜晚的景色<br><strong>———————————————洛阳博物馆——————————————</strong>  </li>
+<li>免费哒！！需要在官方号<strong>提前预约</strong>的哈！！周一闭馆！！</li>
+<li><strong>————————————————丽景门————————————————</strong></li>
+<li>从城楼进入，一条长街，逛吃逛吃，走到头了就是老城十字街夜市了这个夜市的人超级多，看好自己的手机姐妹们。丽景门城楼门票45，包含城楼、兵器展和体验游戏，不上也罢<br><strong>———————————————天堂名堂景区————————————</strong>  </li>
+<li>门票109元/人，性价比不高，景区不大，天堂明堂里有小表演，夜景在景区门外拍也很好看，不来也行</li>
+<li><img src="/../assets/966277459c10dcb6208234338cc895b_1723001256035_0.jpg" alt="966277459c10dcb6208234338cc895b.jpg"></li>
+<li></li>
+<li><img src="/../assets/1f83911a9aab72b672bee50a2b8f34b_1723001277854_0.jpg" alt="1f83911a9aab72b672bee50a2b8f34b.jpg"></li>
+<li><img src="/../assets/7b9d0306a68ef43cd9456180af62a77_1723001302485_0.jpg" alt="7b9d0306a68ef43cd9456180af62a77.jpg"></li>
+<li></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>Travel; Luo Yang;</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>any title</title>
+    <url>/2024/12/24/any-title/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Strat</title>
+    <url>/2023/02/23/first-blog/</url>
+    <content><![CDATA[<p>It’s my first Blog, so let’s start a whole new journey!科学网博客的注册实在让我无力吐槽，经过一晚上的学习，终于打开了一个全新的世界，github+Hexo自主搭建blog的感觉很nice. </p>
+]]></content>
+      <tags>
+        <tag>essay；</tag>
       </tags>
   </entry>
   <entry>
@@ -310,15 +324,6 @@ if [ int1 -lt int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&lt;
       </categories>
       <tags>
         <tag>VASP;shell;</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Strat</title>
-    <url>/2023/02/23/first-blog/</url>
-    <content><![CDATA[<p>It’s my first Blog, so let’s start a whole new journey!科学网博客的注册实在让我无力吐槽，经过一晚上的学习，终于打开了一个全新的世界，github+Hexo自主搭建blog的感觉很nice. </p>
-]]></content>
-      <tags>
-        <tag>essay；</tag>
       </tags>
   </entry>
   <entry>
@@ -380,13 +385,13 @@ return [a_unitcell,b_unitcell,c_unitcell]
 <p>●<strong>2002年，</strong>丰田推出了在FCHV-4上改进FCHV，得到了日本政府的认证，并开始在日本和美国进行小范围的销售。并且在2005年，丰田的FCHV得到了日本政府的型式认证（type certification）。</p>
 <p>●<strong>2008年，</strong>丰田推出了FCHV-adv，也就是这款车搭载了图1中的丰田第二代燃料电池。该车依然基于汉兰达的平台改装而来，使用了4个70MPa的储氢罐，行驶里程达到了760公里。</p>
 <p>●&nbsp;<strong>2015年，</strong>大家熟悉的mirai上线了。10月21日，mirai开始在加州销售和交付。</p>
-<p><img lazyload="" alt="image" data-src="/image/2.png"></p>
+<p><img src="/image/2.png"></p>
 <p>&nbsp;</p>
 <h2 id="2-丰田燃料电池汽车专利布局（核心专利剖析）"><a href="#2-丰田燃料电池汽车专利布局（核心专利剖析）" class="headerlink" title="2.丰田燃料电池汽车专利布局（核心专利剖析）"></a><strong>2.丰田燃料电池汽车专利布局（核心专利剖析）</strong></h2><p>氢能源燃料电池汽车是电动汽车的一种，其核心部件燃料电池。通过氢气和氧气的化学作用，而不是经过燃烧，直接变成电能动力。燃料电池汽车的氢燃料能通过几种途径得到。有些车辆直接携带着纯氢燃料，另外一些车辆有可能装有燃料重整器，能将烃类燃料转化为富氢气体。单个的燃料电池必须结合成燃料电池组，以便获得必需的动力，满足车辆使用的要求。</p>
-<p><img lazyload="" alt="image" data-src="/image/3.png"></p>
+<p><img src="/image/3.png"></p>
 <p>&nbsp;</p>
 <p>燃料电池车是新能源车，具有使用可再生能源、零排放和加燃料时间与燃油车接近的特点，越来越受到国内外相关企业与研究人员的重视。针对丰田汽车公开的与燃料电池车相关的5000多项专利，进行了大量的检索和分析，分类介绍其相关专利，包括燃料电池车、氢气生产与供应技术、燃料系统软件控制技术、燃料电池堆技术与高压储氢罐技术等。</p>
-<p><img lazyload="" alt="image" data-src="/image/4.png"></p>
+<p><img src="/image/4.png"></p>
 <p>&nbsp;</p>
 <p>燃料电池汽车以其高效、无噪音、零污染优势，体现了未来汽车能源和环保的趋势，引领汽车工业革命的新潮流。丰田公司于2015年1月5日在美国拉斯韦加斯国际消费电子展的媒体预展上宣布，该公司约5680项氢燃料电池专利技术将免费开放给同行使用，旨在推动并主导氢燃料电池汽车产业的发展，其中，与燃料电池汽车相关专利将免费开放至2020年。日本丰田公司免费开放氢燃料电池专利技术的举措，无疑又一次在全球的汽车行业掀起了新一轮的氢燃料汽车发展热潮。</p>
 <h3 id="2-1燃料电池堆技术专利"><a href="#2-1燃料电池堆技术专利" class="headerlink" title="2.1燃料电池堆技术专利"></a><strong>2.1燃料电池堆技术专利</strong></h3><p>燃料电池堆是燃料电池发电的核心部分，主要包括电池结构、电极板、膜电极、质子交换膜以及电极催化剂材料等。在该部分的专利检索中共检索到1369项专利，其中丰田公司在中国申请的有276项。丰田公司在中国申请的专利主要集中在膜电极与催化剂的结合，以及燃料电池的整车搭载方面，但在中国申请的专利主要局限在燃料电池结构与搭载方面，并没有过多涉及燃料电池膜电极与催化剂等。</p>
@@ -396,7 +401,7 @@ return [a_unitcell,b_unitcell,c_unitcell]
 <p>要解决这些问题，软件控制系统必不可少，主要计算电池状态以及电车的运行状态。所以丰田公司在这方面申请了大量的专利，掌握了大量的技术。</p>
 <h3 id="2-4氢气制取技术专利"><a href="#2-4氢气制取技术专利" class="headerlink" title="2.4氢气制取技术专利"></a><strong>2.4氢气制取技术专利</strong></h3><p>地球上的氢元素绝大多数氢元素以水的形式存在，传统的制氢方法为电解水，但是这种方法成本较大，每电解1kg氢气至少要30元，另外电解水会耗费大量电能，我国主要还是媒电，这样从根本上来说并没有解决环保问题。丰田公司专利中就有关于环保节能产生氢气的方法，原理是利用电解质中添加光催化剂的方法使水分解，另外还有一篇专利是利用多价态金属氧化物制取氢气，反应的能量由太阳能提供，生产的氢气可以直接使用，虽然这些专利的氢气的转换效率还是不能和现在的有机物的化学重整法相比较，但是丰田车载自制氢方面，还是可以利用的。</p>
 <h2 id="3-丰田燃料电池汽车在中国的专利情况"><a href="#3-丰田燃料电池汽车在中国的专利情况" class="headerlink" title="3.丰田燃料电池汽车在中国的专利情况"></a><strong>3.丰田燃料电池汽车在中国的专利情况</strong></h2><p>在中国专利数据库中，通过分类号、关键词进行检索，统计得到丰田关于燃料电池的申请共962件。丰田汽车公司关于燃料电池的在中国专利的历年申请趋势，2003年后，其专利申请开始大幅增加，2007年的相关专利申请达到最大值，2008年的申请量开始逐渐减少，2009年的申请量下降到不及2008年的一半，随后申请量逐年递减。</p>
-<p><img lazyload="" alt="image" data-src="/image/5.png">
+<p><img src="/image/5.png">
 &nbsp;</p>
 <p>结语</p>
 <p>丰田公司公开的燃料电池专利数量居世界首位，其专利基本涉及了从氢气制造生产到氢能源车的整车装备方面，具备了市场化的所有条件，将进一步推进氢能源燃料电池汽车产业的产业化。从其在国内的专利分析来看，氢能源燃料电池相关专利在中国已颇具规模，且技术领域涵盖了燃料电池汽车的几个主要组成部分，涉及燃料电池汽车相关专利的免费使用是有期限的，中国的汽车企业在享受免费专利的同时，不能忘记及时制定自身燃料电池汽车的专利发展战略，我国的氢燃料汽车仍然有很长的路要走。</p>
