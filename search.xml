@@ -85,95 +85,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Shell脚本命令学习</title>
-    <url>/2024/07/25/2024-07-25/</url>
-    <content><![CDATA[<ul>
-<li><h1 id="Shell脚本命令学习"><a href="#Shell脚本命令学习" class="headerlink" title="Shell脚本命令学习"></a>Shell脚本命令学习</h1></li>
-<li><pre><code>if [ ! -d "$TARGET_DIR" ]; then`：检查 `TARGET_DIR` 目录是否存在。
-`-d "$TARGET_DIR"`：测试条件，检查 `$TARGET_DIR` 是否存在且是一个目录。
-`!`：逻辑非运算符，如果 `-d "$TARGET_DIR"` 为真（目录存在），则 `! -d "$TARGET_DIR"` 为假；反之亦然。
-- `echo "目标目录不存在: $TARGET_DIR"`：如果目录不存在，打印一条错误信息。
-- `exit 1`：如果目录不存在，脚本以状态码 `1` 退出，表示错误。
-</code></pre>
-</li>
-<li></li>
-<li><strong><code> for dir in "$TARGET_DIR"/*/; do</code></strong></li>
-<li><code>for dir in "$TARGET_DIR"/*/; do</code>: 这是一个 <code>for</code> 循环，遍历 <code>$TARGET_DIR</code> 目录下的所有子文件夹。</li>
-<li><code>"$TARGET_DIR"/*/</code>: 这是一个路径模式，匹配 <code>$TARGET_DIR</code> 目录下的所有子文件夹。<code>*</code> 是通配符，匹配所有文件和目录；<code>/</code> 表示仅匹配目录。</li>
-<li><h2 id="shell中if语句特殊参数"><a href="#shell中if语句特殊参数" class="headerlink" title="shell中if语句特殊参数"></a>shell中if语句特殊参数</h2></li>
-<li><pre><code>－d：判断制定的是否为目录
-－z：判断制定的变量是否存在值
-－f：判断制定的是否为文件
-－L: 判断制定的是否为符号链接
-－r：判断制定的是否可读
-－s: 判断存在的对象长度是否为0
-－w: 判断制定的是否可写
-－x：判断存在的对象是否可以执行
-！： 测试条件的否定符号
-</code></pre>
-</li>
-<li><h2 id="条件表达式"><a href="#条件表达式" class="headerlink" title="条件表达式"></a>条件表达式</h2></li>
-<li><h3 id="文件表达式"><a href="#文件表达式" class="headerlink" title="文件表达式"></a>文件表达式</h3></li>
-<li><pre><code>if [ -f&nbsp; file ]&nbsp;&nbsp;&nbsp; 如果文件存在
-if [ -d ...&nbsp;&nbsp; ]&nbsp;&nbsp;&nbsp; 如果目录存在
-if [ -s file&nbsp; ]&nbsp;&nbsp;&nbsp; 如果文件存在且非空
-if [ -r file&nbsp; ]&nbsp;&nbsp;&nbsp; 如果文件存在且可读
-if [ -w file&nbsp; ]&nbsp;&nbsp;&nbsp; 如果文件存在且可写
-if [ -x file&nbsp; ]&nbsp;&nbsp;&nbsp; 如果文件存在且可执行
-</code></pre>
-</li>
-<li><h3 id="整数变量表达式"><a href="#整数变量表达式" class="headerlink" title="整数变量表达式"></a>整数变量表达式</h3></li>
-<li><pre><code>if [ int1 -eq int2 ]&nbsp;&nbsp;&nbsp;    如果int1等于int2&nbsp; &nbsp;
-if [ int1 -ne int2 ]&nbsp;&nbsp;&nbsp;    如果不等于&nbsp;&nbsp; &nbsp;
-if [ int1 -ge int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&gt;=
-if [ int1 -gt int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&gt;
-if [ int1 -le int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&lt;=
-if [ int1 -lt int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&lt;
-</code></pre>
-</li>
-<li></li>
-<li></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Research</category>
-      </categories>
-      <tags>
-        <tag>shell</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>氨燃料改质的主要途径方法</title>
-    <url>/2024/08/02/2024-08-02/</url>
-    <content><![CDATA[<ul>
-<li><h1 id="氨燃料改质的主要途径方法"><a href="#氨燃料改质的主要途径方法" class="headerlink" title="氨燃料改质的主要途径方法"></a>氨燃料改质的主要途径方法</h1></li>
-<li></li>
-<li>氨燃料改质主要涉及将氨分解或转化为更易于利用的氢气或其他燃料形式，以便在燃料电池或内燃机中更高效地使用。以下是几种主要的氨燃料改质途径方法：</li>
-<li><h3 id="1-热分解法"><a href="#1-热分解法" class="headerlink" title="1. 热分解法"></a>1. 热分解法</h3>热分解法利用高温条件下氨分解为氮气和氢气。反应如下：</li>
-</ul>
-<p>$$2NH_3 \rightarrow 3H_2+N_2$$- 此方法需要较高的温度（通常在500°C以上），并且需要合适的催化剂（如镍基催化剂）来提高分解效率。</p>
-<ul>
-<li><h3 id="2-催化分解法"><a href="#2-催化分解法" class="headerlink" title="2. 催化分解法"></a>2. 催化分解法</h3><p>催化分解法是在较低温度（300-500°C）下，使用催化剂（如钌、铂、镍等）来促进氨分解为氢气和氮气。催化剂能显著降低反应所需的能量，提高反应速率。  </p>
-</li>
-<li><h3 id="3-选择性氧化法"><a href="#3-选择性氧化法" class="headerlink" title="3. 选择性氧化法"></a>3. 选择性氧化法</h3><p>选择性氧化法通过控制氧气量，将氨部分氧化生成氮气和水，同时释放出氢气。反应如下：<br>4NH3+3O2→2N2+6H2O4 text{NH}_3 + 3 text{O}_2 → 2 text{N}_2 + 6 text{H}_2O4NH3​+3O2​→2N2​+6H2​O<br>选择性氧化需要精确控制氧气和氨的比例，避免完全氧化生成氮氧化物（NOx）。  </p>
-</li>
-<li><h3 id="4-水蒸气重整法"><a href="#4-水蒸气重整法" class="headerlink" title="4. 水蒸气重整法"></a>4. 水蒸气重整法</h3><p>水蒸气重整法是将氨与水蒸气在高温（通常在700-900°C）和催化剂（如镍基催化剂）存在下反应生成氢气和氮气。反应如下：<br>NH3+H2O→3H2+12N2text{NH}_3 + text{H}_2O → 3 text{H}_2 + frac{1}{2} text{N}_2NH3​+H2​O→3H2​+21​N2​<br>这种方法与传统的天然气重整类似，但需要较高的反应温度。  </p>
-</li>
-<li><h3 id="5-等离子体法"><a href="#5-等离子体法" class="headerlink" title="5. 等离子体法"></a>5. 等离子体法</h3><p>等离子体法利用高能等离子体环境促进氨分解为氢气和氮气。此方法在较低温度下即可进行，但需要复杂的设备和较高的能耗。  </p>
-</li>
-<li><h3 id="6-电化学分解法"><a href="#6-电化学分解法" class="headerlink" title="6. 电化学分解法"></a>6. 电化学分解法</h3><p>电化学分解法利用电能在电解池中将氨分解为氢气和氮气。此方法相对节能，但需要高效的电解质和电极材料。  </p>
-<p>这些方法各有优缺点，选择合适的方法取决于具体的应用场景、成本、效率及环保要求等因素。</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Research</category>
-      </categories>
-      <tags>
-        <tag>NH3; Catalyst</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>氨催化剂</title>
     <url>/2024/07/26/2024-07-26/</url>
     <content><![CDATA[<ul>
@@ -241,6 +152,64 @@ if [ int1 -lt int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&lt;
       </categories>
       <tags>
         <tag>COF;Database;</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Shell脚本命令学习</title>
+    <url>/2024/07/25/2024-07-25/</url>
+    <content><![CDATA[<ul>
+<li><h1 id="Shell脚本命令学习"><a href="#Shell脚本命令学习" class="headerlink" title="Shell脚本命令学习"></a>Shell脚本命令学习</h1></li>
+<li><pre><code>if [ ! -d "$TARGET_DIR" ]; then`：检查 `TARGET_DIR` 目录是否存在。
+`-d "$TARGET_DIR"`：测试条件，检查 `$TARGET_DIR` 是否存在且是一个目录。
+`!`：逻辑非运算符，如果 `-d "$TARGET_DIR"` 为真（目录存在），则 `! -d "$TARGET_DIR"` 为假；反之亦然。
+- `echo "目标目录不存在: $TARGET_DIR"`：如果目录不存在，打印一条错误信息。
+- `exit 1`：如果目录不存在，脚本以状态码 `1` 退出，表示错误。
+</code></pre>
+</li>
+<li></li>
+<li><strong><code> for dir in "$TARGET_DIR"/*/; do</code></strong></li>
+<li><code>for dir in "$TARGET_DIR"/*/; do</code>: 这是一个 <code>for</code> 循环，遍历 <code>$TARGET_DIR</code> 目录下的所有子文件夹。</li>
+<li><code>"$TARGET_DIR"/*/</code>: 这是一个路径模式，匹配 <code>$TARGET_DIR</code> 目录下的所有子文件夹。<code>*</code> 是通配符，匹配所有文件和目录；<code>/</code> 表示仅匹配目录。</li>
+<li><h2 id="shell中if语句特殊参数"><a href="#shell中if语句特殊参数" class="headerlink" title="shell中if语句特殊参数"></a>shell中if语句特殊参数</h2></li>
+<li><pre><code>－d：判断制定的是否为目录
+－z：判断制定的变量是否存在值
+－f：判断制定的是否为文件
+－L: 判断制定的是否为符号链接
+－r：判断制定的是否可读
+－s: 判断存在的对象长度是否为0
+－w: 判断制定的是否可写
+－x：判断存在的对象是否可以执行
+！： 测试条件的否定符号
+</code></pre>
+</li>
+<li><h2 id="条件表达式"><a href="#条件表达式" class="headerlink" title="条件表达式"></a>条件表达式</h2></li>
+<li><h3 id="文件表达式"><a href="#文件表达式" class="headerlink" title="文件表达式"></a>文件表达式</h3></li>
+<li><pre><code>if [ -f&nbsp; file ]&nbsp;&nbsp;&nbsp; 如果文件存在
+if [ -d ...&nbsp;&nbsp; ]&nbsp;&nbsp;&nbsp; 如果目录存在
+if [ -s file&nbsp; ]&nbsp;&nbsp;&nbsp; 如果文件存在且非空
+if [ -r file&nbsp; ]&nbsp;&nbsp;&nbsp; 如果文件存在且可读
+if [ -w file&nbsp; ]&nbsp;&nbsp;&nbsp; 如果文件存在且可写
+if [ -x file&nbsp; ]&nbsp;&nbsp;&nbsp; 如果文件存在且可执行
+</code></pre>
+</li>
+<li><h3 id="整数变量表达式"><a href="#整数变量表达式" class="headerlink" title="整数变量表达式"></a>整数变量表达式</h3></li>
+<li><pre><code>if [ int1 -eq int2 ]&nbsp;&nbsp;&nbsp;    如果int1等于int2&nbsp; &nbsp;
+if [ int1 -ne int2 ]&nbsp;&nbsp;&nbsp;    如果不等于&nbsp;&nbsp; &nbsp;
+if [ int1 -ge int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&gt;=
+if [ int1 -gt int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&gt;
+if [ int1 -le int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&lt;=
+if [ int1 -lt int2 ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果&lt;
+</code></pre>
+</li>
+<li></li>
+<li></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Research</category>
+      </categories>
+      <tags>
+        <tag>shell</tag>
       </tags>
   </entry>
   <entry>
@@ -315,6 +284,37 @@ return [a_unitcell,b_unitcell,c_unitcell]
       </categories>
       <tags>
         <tag>molecular simulation；</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>氨燃料改质的主要途径方法</title>
+    <url>/2024/08/02/2024-08-02/</url>
+    <content><![CDATA[<ul>
+<li><h1 id="氨燃料改质的主要途径方法"><a href="#氨燃料改质的主要途径方法" class="headerlink" title="氨燃料改质的主要途径方法"></a>氨燃料改质的主要途径方法</h1></li>
+<li></li>
+<li>氨燃料改质主要涉及将氨分解或转化为更易于利用的氢气或其他燃料形式，以便在燃料电池或内燃机中更高效地使用。以下是几种主要的氨燃料改质途径方法：</li>
+<li><h3 id="1-热分解法"><a href="#1-热分解法" class="headerlink" title="1. 热分解法"></a>1. 热分解法</h3>热分解法利用高温条件下氨分解为氮气和氢气。反应如下：</li>
+</ul>
+<p>$$2NH_3 \rightarrow 3H_2+N_2$$- 此方法需要较高的温度（通常在500°C以上），并且需要合适的催化剂（如镍基催化剂）来提高分解效率。</p>
+<ul>
+<li><h3 id="2-催化分解法"><a href="#2-催化分解法" class="headerlink" title="2. 催化分解法"></a>2. 催化分解法</h3><p>催化分解法是在较低温度（300-500°C）下，使用催化剂（如钌、铂、镍等）来促进氨分解为氢气和氮气。催化剂能显著降低反应所需的能量，提高反应速率。  </p>
+</li>
+<li><h3 id="3-选择性氧化法"><a href="#3-选择性氧化法" class="headerlink" title="3. 选择性氧化法"></a>3. 选择性氧化法</h3><p>选择性氧化法通过控制氧气量，将氨部分氧化生成氮气和水，同时释放出氢气。反应如下：<br>4NH3+3O2→2N2+6H2O4 text{NH}_3 + 3 text{O}_2 → 2 text{N}_2 + 6 text{H}_2O4NH3​+3O2​→2N2​+6H2​O<br>选择性氧化需要精确控制氧气和氨的比例，避免完全氧化生成氮氧化物（NOx）。  </p>
+</li>
+<li><h3 id="4-水蒸气重整法"><a href="#4-水蒸气重整法" class="headerlink" title="4. 水蒸气重整法"></a>4. 水蒸气重整法</h3><p>水蒸气重整法是将氨与水蒸气在高温（通常在700-900°C）和催化剂（如镍基催化剂）存在下反应生成氢气和氮气。反应如下：<br>NH3+H2O→3H2+12N2text{NH}_3 + text{H}_2O → 3 text{H}_2 + frac{1}{2} text{N}_2NH3​+H2​O→3H2​+21​N2​<br>这种方法与传统的天然气重整类似，但需要较高的反应温度。  </p>
+</li>
+<li><h3 id="5-等离子体法"><a href="#5-等离子体法" class="headerlink" title="5. 等离子体法"></a>5. 等离子体法</h3><p>等离子体法利用高能等离子体环境促进氨分解为氢气和氮气。此方法在较低温度下即可进行，但需要复杂的设备和较高的能耗。  </p>
+</li>
+<li><h3 id="6-电化学分解法"><a href="#6-电化学分解法" class="headerlink" title="6. 电化学分解法"></a>6. 电化学分解法</h3><p>电化学分解法利用电能在电解池中将氨分解为氢气和氮气。此方法相对节能，但需要高效的电解质和电极材料。  </p>
+<p>这些方法各有优缺点，选择合适的方法取决于具体的应用场景、成本、效率及环保要求等因素。</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Research</category>
+      </categories>
+      <tags>
+        <tag>NH3; Catalyst</tag>
       </tags>
   </entry>
   <entry>
